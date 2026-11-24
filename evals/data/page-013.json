@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-14",
+  "entries": [
+    {
+      "time": "18:39",
+      "customer": "Costa Giulia",
+      "phone": "3714208217",
+      "items": [
+        {
+          "name": "calzone",
+          "quantity": 1
+        },
+        {
+          "name": "marinara",
+          "quantity": 1
+        },
+        {
+          "name": "quattro formaggi",
+          "quantity": 2
+        },
+        {
+          "name": "tiramisù",
+          "quantity": 3
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Cavour 5",
+      "total_eur": 44.5,
+      "paid": true
+    },
+    {
+      "time": "18:54",
+      "customer": "Ricci Sara",
+      "phone": "3528962326",
+      "items": [
+        {
+          "name": "prosciutto e funghi",
+          "quantity": 1
+        },
+        {
+          "name": "lasagne",
+          "quantity": 2
+        },
+        {
+          "name": "marinara",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 36.0,
+      "paid": false
+    },
+    {
+      "time": "19:39",
+      "customer": "Mancini Federica",
+      "phone": "3294763237",
+      "items": [
+        {
+          "name": "napoli",
+          "quantity": 1
+        },
+        {
+          "name": "marinara",
+          "quantity": 1
+        },
+        {
+          "name": "capricciosa",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": null,
+      "paid": true
+    },
+    {
+      "time": "20:09",
+      "customer": "Costa Anna",
+      "phone": "3536003950",
+      "items": [
+        {
+          "name": "margherita",
+          "quantity": 1
+        },
+        {
+          "name": "quattro formaggi",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": null,
+      "paid": false
+    }
+  ],
+  "uncertain_fields": []
+}

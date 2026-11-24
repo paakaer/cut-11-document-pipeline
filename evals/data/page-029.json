@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-30",
+  "entries": [
+    {
+      "time": "18:15",
+      "customer": "Greco Chiara",
+      "phone": "3026244380",
+      "items": [
+        {
+          "name": "birra",
+          "quantity": 3
+        },
+        {
+          "name": "diavola",
+          "quantity": 2
+        },
+        {
+          "name": "margherita",
+          "quantity": 2
+        },
+        {
+          "name": "acqua",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Trieste 69",
+      "total_eur": 41.0,
+      "paid": false
+    },
+    {
+      "time": "18:30",
+      "customer": "Ricci Federica",
+      "phone": "3411864736",
+      "items": [
+        {
+          "name": "prosciutto e funghi",
+          "quantity": 2
+        },
+        {
+          "name": "quattro formaggi",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Garibaldi 46",
+      "total_eur": 26.0,
+      "paid": false
+    },
+    {
+      "time": "18:45",
+      "customer": "Conti Matteo",
+      "phone": "3611999648",
+      "items": [
+        {
+          "name": "patatine",
+          "quantity": 2
+        },
+        {
+          "name": "margherita",
+          "quantity": 1
+        },
+        {
+          "name": "quattro formaggi",
+          "quantity": 1
+        },
+        {
+          "name": "tiramisù",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Milano 56",
+      "total_eur": 27.5,
+      "paid": false
+    }
+  ],
+  "uncertain_fields": []
+}

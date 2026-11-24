@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-18",
+  "entries": [
+    {
+      "time": "18:41",
+      "customer": "Mancini Stefano",
+      "phone": "3285870131",
+      "items": [
+        {
+          "name": "margherita",
+          "quantity": 2
+        },
+        {
+          "name": "capricciosa",
+          "quantity": 1
+        },
+        {
+          "name": "prosciutto e funghi",
+          "quantity": 2
+        },
+        {
+          "name": "coca cola",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 39.0,
+      "paid": false
+    },
+    {
+      "time": "18:56",
+      "customer": "Marino Anna",
+      "phone": "3983751822",
+      "items": [
+        {
+          "name": "birra",
+          "quantity": 1
+        },
+        {
+          "name": "quattro formaggi",
+          "quantity": 1
+        },
+        {
+          "name": "calzone",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 19.5,
+      "paid": false
+    },
+    {
+      "time": "19:11",
+      "customer": "Moretti Stefano",
+      "phone": "3136430917",
+      "items": [
+        {
+          "name": "acqua",
+          "quantity": 1
+        },
+        {
+          "name": "quattro formaggi",
+          "quantity": 1
+        },
+        {
+          "name": "birra",
+          "quantity": 3
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 20.0,
+      "paid": false
+    },
+    {
+      "time": "19:26",
+      "customer": "Rossi Federica",
+      "phone": "3628745623",
+      "items": [
+        {
+          "name": "calzone",
+          "quantity": 1
+        },
+        {
+          "name": "quattro formaggi",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 16.0,
+      "paid": true
+    },
+    {
+      "time": "19:56",
+      "customer": "Gallo Andrea",
+      "phone": null,
+      "items": [
+        {
+          "name": "capricciosa",
+          "quantity": 2
+        },
+        {
+          "name": "birra",
+          "quantity": 1
+        },
+        {
+          "name": "quattro formaggi",
+          "quantity": 1
+        },
+        {
+          "name": "patatine",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Trieste 58",
+      "total_eur": 34.0,
+      "paid": false
+    }
+  ],
+  "uncertain_fields": []
+}

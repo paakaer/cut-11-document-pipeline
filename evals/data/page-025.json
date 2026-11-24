@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-26",
+  "entries": [
+    {
+      "time": "18:53",
+      "customer": "Moretti Giulia",
+      "phone": "3626509439",
+      "items": [
+        {
+          "name": "capricciosa",
+          "quantity": 1
+        },
+        {
+          "name": "birra",
+          "quantity": 2
+        },
+        {
+          "name": "calzone",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Corso Zanardelli 31",
+      "total_eur": 25.5,
+      "paid": false
+    },
+    {
+      "time": "19:08",
+      "customer": "Barbieri Matteo",
+      "phone": "3523575716",
+      "items": [
+        {
+          "name": "calzone",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Corso Zanardelli 106",
+      "total_eur": 18.0,
+      "paid": true
+    },
+    {
+      "time": "19:53",
+      "customer": "Ferrari Sara",
+      "phone": "3589290634",
+      "items": [
+        {
+          "name": "calzone",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 16.0,
+      "paid": false
+    },
+    {
+      "time": null,
+      "customer": "Ferrari Chiara",
+      "phone": "3513930763",
+      "items": [
+        {
+          "name": "birra",
+          "quantity": 2
+        },
+        {
+          "name": "quattro formaggi",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 15.0,
+      "paid": true
+    },
+    {
+      "time": "20:53",
+      "customer": "Barbieri Marco",
+      "phone": null,
+      "items": [
+        {
+          "name": "prosciutto e funghi",
+          "quantity": 2
+        },
+        {
+          "name": "coca cola",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Piazza Loggia 27",
+      "total_eur": 23.0,
+      "paid": false
+    }
+  ],
+  "uncertain_fields": []
+}

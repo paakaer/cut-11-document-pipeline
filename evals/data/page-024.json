@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-25",
+  "entries": [
+    {
+      "time": "18:23",
+      "customer": "Moretti Chiara",
+      "phone": "3218032508",
+      "items": [
+        {
+          "name": "tiramisù",
+          "quantity": 1
+        },
+        {
+          "name": "birra",
+          "quantity": 3
+        },
+        {
+          "name": "marinara",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 25.0,
+      "paid": false
+    },
+    {
+      "time": "18:53",
+      "customer": "Colombo Matteo",
+      "phone": null,
+      "items": [
+        {
+          "name": "calzone",
+          "quantity": 1
+        },
+        {
+          "name": "marinara",
+          "quantity": 4
+        },
+        {
+          "name": "capricciosa",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 45.0,
+      "paid": true
+    },
+    {
+      "time": "19:08",
+      "customer": "Mancini Luca",
+      "phone": "3153209162",
+      "items": [
+        {
+          "name": "patatine",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 7.0,
+      "paid": false
+    },
+    {
+      "time": "19:38",
+      "customer": "Fontana Davide",
+      "phone": "3788443837",
+      "items": [
+        {
+          "name": "capricciosa",
+          "quantity": 1
+        },
+        {
+          "name": "prosciutto e funghi",
+          "quantity": 4
+        },
+        {
+          "name": "calzone",
+          "quantity": 2
+        },
+        {
+          "name": "acqua",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Roma 51",
+      "total_eur": 61.5,
+      "paid": false
+    },
+    {
+      "time": null,
+      "customer": "Moretti Marco",
+      "phone": "3061465453",
+      "items": [
+        {
+          "name": "lasagne",
+          "quantity": 2
+        },
+        {
+          "name": "acqua",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Piazza Loggia 38",
+      "total_eur": null,
+      "paid": false
+    }
+  ],
+  "uncertain_fields": []
+}

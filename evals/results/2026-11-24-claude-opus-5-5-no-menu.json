@@ -1,0 +1,482 @@
+{
+  "extractor": "claude-opus-5-5",
+  "date": "2026-11-24",
+  "pages_attempted": 30,
+  "failures": [],
+  "accuracy": {
+    "pages": 30,
+    "fields": 990,
+    "field_accuracy": 0.9888888888888889,
+    "perfect_pages": 21,
+    "perfect_page_rate": 0.7,
+    "missed_entries": 0,
+    "spurious_entries": 0,
+    "flag_recall": 0.0,
+    "flag_precision": 0.0,
+    "residual_error_rate": 0.011111111111111112,
+    "per_field": {
+      "date": {
+        "total": 30,
+        "correct": 30,
+        "accuracy": 1.0
+      },
+      "time": {
+        "total": 120,
+        "correct": 120,
+        "accuracy": 1.0
+      },
+      "customer": {
+        "total": 120,
+        "correct": 120,
+        "accuracy": 1.0
+      },
+      "phone": {
+        "total": 120,
+        "correct": 120,
+        "accuracy": 1.0
+      },
+      "items": {
+        "total": 120,
+        "correct": 109,
+        "accuracy": 0.9083333333333333
+      },
+      "fulfilment": {
+        "total": 120,
+        "correct": 120,
+        "accuracy": 1.0
+      },
+      "address": {
+        "total": 120,
+        "correct": 120,
+        "accuracy": 1.0
+      },
+      "total_eur": {
+        "total": 120,
+        "correct": 120,
+        "accuracy": 1.0
+      },
+      "paid": {
+        "total": 120,
+        "correct": 120,
+        "accuracy": 1.0
+      }
+    }
+  },
+  "cost_per_document_usd": 0.035428,
+  "cost_per_1000_documents_eur": 30.468080000000004,
+  "total_cost_usd": 1.06284,
+  "latency_ms_p50": 7871,
+  "latency_ms_p95": 10565,
+  "per_page": [
+    {
+      "page": "page-001.jpg",
+      "fields": 25,
+      "wrong": 1,
+      "wrong_fields": [
+        "entries[2].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 0,
+      "cost_usd": 0.03176,
+      "latency_ms": 7159,
+      "input_tokens": 4540,
+      "output_tokens": 680
+    },
+    {
+      "page": "page-002.jpg",
+      "fields": 25,
+      "wrong": 1,
+      "wrong_fields": [
+        "entries[0].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 2,
+      "cost_usd": 0.03532,
+      "latency_ms": 8360,
+      "input_tokens": 4540,
+      "output_tokens": 858
+    },
+    {
+      "page": "page-003.jpg",
+      "fields": 25,
+      "wrong": 1,
+      "wrong_fields": [
+        "entries[0].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 1,
+      "cost_usd": 0.03576,
+      "latency_ms": 7871,
+      "input_tokens": 4540,
+      "output_tokens": 880
+    },
+    {
+      "page": "page-004.jpg",
+      "fields": 25,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 1,
+      "cost_usd": 0.0333,
+      "latency_ms": 7236,
+      "input_tokens": 4540,
+      "output_tokens": 757
+    },
+    {
+      "page": "page-005.jpg",
+      "fields": 41,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 2,
+      "cost_usd": 0.03914,
+      "latency_ms": 8462,
+      "input_tokens": 4540,
+      "output_tokens": 1049
+    },
+    {
+      "page": "page-006.jpg",
+      "fields": 41,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 1,
+      "cost_usd": 0.03996,
+      "latency_ms": 9215,
+      "input_tokens": 4540,
+      "output_tokens": 1090
+    },
+    {
+      "page": "page-007.jpg",
+      "fields": 41,
+      "wrong": 2,
+      "wrong_fields": [
+        "entries[2].items",
+        "entries[0].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 5,
+      "cost_usd": 0.0397,
+      "latency_ms": 9089,
+      "input_tokens": 4540,
+      "output_tokens": 1077
+    },
+    {
+      "page": "page-008.jpg",
+      "fields": 41,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 4,
+      "cost_usd": 0.04182,
+      "latency_ms": 10565,
+      "input_tokens": 4540,
+      "output_tokens": 1183
+    },
+    {
+      "page": "page-009.jpg",
+      "fields": 33,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 1,
+      "cost_usd": 0.0325,
+      "latency_ms": 6564,
+      "input_tokens": 4540,
+      "output_tokens": 717
+    },
+    {
+      "page": "page-010.jpg",
+      "fields": 41,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 1,
+      "cost_usd": 0.03656,
+      "latency_ms": 7575,
+      "input_tokens": 4540,
+      "output_tokens": 920
+    },
+    {
+      "page": "page-011.jpg",
+      "fields": 41,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 3,
+      "cost_usd": 0.03936,
+      "latency_ms": 8895,
+      "input_tokens": 4540,
+      "output_tokens": 1060
+    },
+    {
+      "page": "page-012.jpg",
+      "fields": 25,
+      "wrong": 1,
+      "wrong_fields": [
+        "entries[0].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 1,
+      "cost_usd": 0.03284,
+      "latency_ms": 7091,
+      "input_tokens": 4540,
+      "output_tokens": 734
+    },
+    {
+      "page": "page-013.jpg",
+      "fields": 33,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 2,
+      "cost_usd": 0.0376,
+      "latency_ms": 8312,
+      "input_tokens": 4540,
+      "output_tokens": 972
+    },
+    {
+      "page": "page-014.jpg",
+      "fields": 41,
+      "wrong": 1,
+      "wrong_fields": [
+        "entries[4].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 1,
+      "cost_usd": 0.0342,
+      "latency_ms": 8500,
+      "input_tokens": 4540,
+      "output_tokens": 802
+    },
+    {
+      "page": "page-015.jpg",
+      "fields": 25,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 1,
+      "cost_usd": 0.02906,
+      "latency_ms": 5643,
+      "input_tokens": 4540,
+      "output_tokens": 545
+    },
+    {
+      "page": "page-016.jpg",
+      "fields": 41,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 2,
+      "cost_usd": 0.03316,
+      "latency_ms": 7222,
+      "input_tokens": 4540,
+      "output_tokens": 750
+    },
+    {
+      "page": "page-017.jpg",
+      "fields": 41,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 2,
+      "cost_usd": 0.03974,
+      "latency_ms": 9297,
+      "input_tokens": 4540,
+      "output_tokens": 1079
+    },
+    {
+      "page": "page-018.jpg",
+      "fields": 25,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 1,
+      "cost_usd": 0.03178,
+      "latency_ms": 6243,
+      "input_tokens": 4540,
+      "output_tokens": 681
+    },
+    {
+      "page": "page-019.jpg",
+      "fields": 41,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 6,
+      "cost_usd": 0.04218,
+      "latency_ms": 11274,
+      "input_tokens": 4540,
+      "output_tokens": 1201
+    },
+    {
+      "page": "page-020.jpg",
+      "fields": 33,
+      "wrong": 2,
+      "wrong_fields": [
+        "entries[2].items",
+        "entries[1].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 4,
+      "cost_usd": 0.0359,
+      "latency_ms": 7781,
+      "input_tokens": 4540,
+      "output_tokens": 887
+    },
+    {
+      "page": "page-021.jpg",
+      "fields": 25,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 1,
+      "cost_usd": 0.03236,
+      "latency_ms": 7234,
+      "input_tokens": 4540,
+      "output_tokens": 710
+    },
+    {
+      "page": "page-022.jpg",
+      "fields": 33,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 1,
+      "cost_usd": 0.03648,
+      "latency_ms": 8190,
+      "input_tokens": 4540,
+      "output_tokens": 916
+    },
+    {
+      "page": "page-023.jpg",
+      "fields": 25,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 0,
+      "cost_usd": 0.02554,
+      "latency_ms": 4254,
+      "input_tokens": 4540,
+      "output_tokens": 369
+    },
+    {
+      "page": "page-024.jpg",
+      "fields": 41,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 1,
+      "cost_usd": 0.03802,
+      "latency_ms": 8225,
+      "input_tokens": 4540,
+      "output_tokens": 993
+    },
+    {
+      "page": "page-025.jpg",
+      "fields": 41,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 2,
+      "cost_usd": 0.03968,
+      "latency_ms": 8918,
+      "input_tokens": 4540,
+      "output_tokens": 1076
+    },
+    {
+      "page": "page-026.jpg",
+      "fields": 33,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 2,
+      "cost_usd": 0.03582,
+      "latency_ms": 7468,
+      "input_tokens": 4540,
+      "output_tokens": 883
+    },
+    {
+      "page": "page-027.jpg",
+      "fields": 25,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 1,
+      "cost_usd": 0.03204,
+      "latency_ms": 6859,
+      "input_tokens": 4540,
+      "output_tokens": 694
+    },
+    {
+      "page": "page-028.jpg",
+      "fields": 25,
+      "wrong": 1,
+      "wrong_fields": [
+        "entries[1].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 2,
+      "cost_usd": 0.03086,
+      "latency_ms": 6753,
+      "input_tokens": 4540,
+      "output_tokens": 635
+    },
+    {
+      "page": "page-029.jpg",
+      "fields": 25,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 2,
+      "cost_usd": 0.03362,
+      "latency_ms": 7100,
+      "input_tokens": 4540,
+      "output_tokens": 773
+    },
+    {
+      "page": "page-030.jpg",
+      "fields": 33,
+      "wrong": 1,
+      "wrong_fields": [
+        "entries[3].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 1,
+      "cost_usd": 0.03678,
+      "latency_ms": 8499,
+      "input_tokens": 4540,
+      "output_tokens": 931
+    }
+  ]
+}

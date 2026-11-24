@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-17",
+  "entries": [
+    {
+      "time": "18:28",
+      "customer": "Fontana Paolo",
+      "phone": "3128009371",
+      "items": [
+        {
+          "name": "acqua",
+          "quantity": 2
+        },
+        {
+          "name": "margherita",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 9.0,
+      "paid": false
+    },
+    {
+      "time": "19:13",
+      "customer": "Ferrari Luca",
+      "phone": "3102444137",
+      "items": [
+        {
+          "name": "acqua",
+          "quantity": 1
+        },
+        {
+          "name": "diavola",
+          "quantity": 3
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Cavour 102",
+      "total_eur": 26.0,
+      "paid": false
+    },
+    {
+      "time": "19:28",
+      "customer": "Barbieri Paolo",
+      "phone": "3876733448",
+      "items": [
+        {
+          "name": "coca cola",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Corso Zanardelli 18",
+      "total_eur": null,
+      "paid": false
+    },
+    {
+      "time": "20:13",
+      "customer": "Giordano Federica",
+      "phone": "3563257628",
+      "items": [
+        {
+          "name": "capricciosa",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Mazzini 55",
+      "total_eur": 10.5,
+      "paid": false
+    },
+    {
+      "time": "20:58",
+      "customer": "Giordano Sara",
+      "phone": "3699356044",
+      "items": [
+        {
+          "name": "birra",
+          "quantity": 2
+        },
+        {
+          "name": "capricciosa",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": null,
+      "paid": false
+    }
+  ],
+  "uncertain_fields": []
+}

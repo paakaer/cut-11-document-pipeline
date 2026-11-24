@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-31",
+  "entries": [
+    {
+      "time": "18:18",
+      "customer": "Fontana Giulia",
+      "phone": "3396935125",
+      "items": [
+        {
+          "name": "napoli",
+          "quantity": 1
+        },
+        {
+          "name": "margherita",
+          "quantity": 1
+        },
+        {
+          "name": "birra",
+          "quantity": 1
+        },
+        {
+          "name": "diavola",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 24.0,
+      "paid": false
+    },
+    {
+      "time": "18:48",
+      "customer": "Fontana Davide",
+      "phone": "3568878861",
+      "items": [
+        {
+          "name": "calzone",
+          "quantity": 1
+        },
+        {
+          "name": "coca cola",
+          "quantity": 1
+        },
+        {
+          "name": "diavola",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 25.5,
+      "paid": false
+    },
+    {
+      "time": "19:18",
+      "customer": "Fontana Anna",
+      "phone": "3778825352",
+      "items": [
+        {
+          "name": "coca cola",
+          "quantity": 1
+        },
+        {
+          "name": "diavola",
+          "quantity": 1
+        },
+        {
+          "name": "capricciosa",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": null,
+      "paid": true
+    },
+    {
+      "time": "19:48",
+      "customer": "Greco Federica",
+      "phone": null,
+      "items": [
+        {
+          "name": "diavola",
+          "quantity": 1
+        },
+        {
+          "name": "capricciosa",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Garibaldi 104",
+      "total_eur": 26.5,
+      "paid": true
+    }
+  ],
+  "uncertain_fields": []
+}

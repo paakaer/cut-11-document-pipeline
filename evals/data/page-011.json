@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-12",
+  "entries": [
+    {
+      "time": "18:02",
+      "customer": "Zanetti Marco",
+      "phone": "3208465141",
+      "items": [
+        {
+          "name": "marinara",
+          "quantity": 2
+        },
+        {
+          "name": "calzone",
+          "quantity": 1
+        },
+        {
+          "name": "capricciosa",
+          "quantity": 1
+        },
+        {
+          "name": "quattro formaggi",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Cavour 15",
+      "total_eur": 36.5,
+      "paid": false
+    },
+    {
+      "time": "18:47",
+      "customer": "Barbieri Paolo",
+      "phone": "3973593162",
+      "items": [
+        {
+          "name": "tiramisù",
+          "quantity": 2
+        },
+        {
+          "name": "margherita",
+          "quantity": 4
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Milano 98",
+      "total_eur": null,
+      "paid": true
+    },
+    {
+      "time": "19:02",
+      "customer": "Rossi Luca",
+      "phone": "3608485295",
+      "items": [
+        {
+          "name": "birra",
+          "quantity": 2
+        },
+        {
+          "name": "capricciosa",
+          "quantity": 1
+        },
+        {
+          "name": "coca cola",
+          "quantity": 2
+        },
+        {
+          "name": "acqua",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Viale Venezia 40",
+      "total_eur": 25.5,
+      "paid": true
+    },
+    {
+      "time": "19:17",
+      "customer": "Ferrari Matteo",
+      "phone": "3721894863",
+      "items": [
+        {
+          "name": "prosciutto e funghi",
+          "quantity": 1
+        },
+        {
+          "name": "margherita",
+          "quantity": 1
+        },
+        {
+          "name": "coca cola",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Viale Venezia 33",
+      "total_eur": 18.5,
+      "paid": false
+    },
+    {
+      "time": "19:32",
+      "customer": "Colombo Davide",
+      "phone": "3860017039",
+      "items": [
+        {
+          "name": "acqua",
+          "quantity": 2
+        },
+        {
+          "name": "lasagne",
+          "quantity": 2
+        },
+        {
+          "name": "prosciutto e funghi",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 29.0,
+      "paid": false
+    }
+  ],
+  "uncertain_fields": []
+}

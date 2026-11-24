@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-21",
+  "entries": [
+    {
+      "time": "18:25",
+      "customer": "Marino Federica",
+      "phone": "3460179528",
+      "items": [
+        {
+          "name": "margherita",
+          "quantity": 1
+        },
+        {
+          "name": "acqua",
+          "quantity": 3
+        },
+        {
+          "name": "lasagne",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Roma 110",
+      "total_eur": 30.5,
+      "paid": false
+    },
+    {
+      "time": "19:10",
+      "customer": "Giordano Stefano",
+      "phone": "3155542209",
+      "items": [
+        {
+          "name": "capricciosa",
+          "quantity": 1
+        },
+        {
+          "name": "quattro formaggi",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 24.5,
+      "paid": false
+    },
+    {
+      "time": "19:25",
+      "customer": "Rossi Luca",
+      "phone": null,
+      "items": [
+        {
+          "name": "lasagne",
+          "quantity": 3
+        },
+        {
+          "name": "coca cola",
+          "quantity": 1
+        },
+        {
+          "name": "napoli",
+          "quantity": 1
+        },
+        {
+          "name": "capricciosa",
+          "quantity": 4
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": null,
+      "paid": true
+    },
+    {
+      "time": "19:55",
+      "customer": "Rossi Francesca",
+      "phone": "3440509038",
+      "items": [
+        {
+          "name": "patatine",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 3.5,
+      "paid": false
+    }
+  ],
+  "uncertain_fields": []
+}

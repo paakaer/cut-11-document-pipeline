@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-08",
+  "entries": [
+    {
+      "time": "18:35",
+      "customer": "Fontana Luca",
+      "phone": "3551482145",
+      "items": [
+        {
+          "name": "capricciosa",
+          "quantity": 1
+        },
+        {
+          "name": "prosciutto e funghi",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": null,
+      "paid": false
+    },
+    {
+      "time": "19:20",
+      "customer": "Colombo Francesca",
+      "phone": "3060048046",
+      "items": [
+        {
+          "name": "lasagne",
+          "quantity": 2
+        },
+        {
+          "name": "quattro formaggi",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 26.0,
+      "paid": false
+    },
+    {
+      "time": "19:35",
+      "customer": "Zanetti Paolo",
+      "phone": "3691228810",
+      "items": [
+        {
+          "name": "capricciosa",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 8.5,
+      "paid": true
+    },
+    {
+      "time": "19:50",
+      "customer": "Marino Giulia",
+      "phone": "3191537960",
+      "items": [
+        {
+          "name": "acqua",
+          "quantity": 2
+        },
+        {
+          "name": "calzone",
+          "quantity": 1
+        },
+        {
+          "name": "patatine",
+          "quantity": 1
+        },
+        {
+          "name": "prosciutto e funghi",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Roma 29",
+      "total_eur": 32.5,
+      "paid": false
+    },
+    {
+      "time": "20:05",
+      "customer": "Lombardi Andrea",
+      "phone": null,
+      "items": [
+        {
+          "name": "margherita",
+          "quantity": 1
+        },
+        {
+          "name": "patatine",
+          "quantity": 1
+        },
+        {
+          "name": "capricciosa",
+          "quantity": 2
+        },
+        {
+          "name": "coca cola",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Piazza Loggia 9",
+      "total_eur": 31.0,
+      "paid": true
+    }
+  ],
+  "uncertain_fields": []
+}

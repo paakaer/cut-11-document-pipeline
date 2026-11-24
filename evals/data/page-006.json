@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-07",
+  "entries": [
+    {
+      "time": "18:58",
+      "customer": "Bruno Luca",
+      "phone": null,
+      "items": [
+        {
+          "name": "calzone",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Viale Venezia 114",
+      "total_eur": 18.0,
+      "paid": false
+    },
+    {
+      "time": "19:43",
+      "customer": "Bruno Federica",
+      "phone": "3525302782",
+      "items": [
+        {
+          "name": "prosciutto e funghi",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 16.0,
+      "paid": false
+    },
+    {
+      "time": "19:58",
+      "customer": "Costa Simone",
+      "phone": null,
+      "items": [
+        {
+          "name": "prosciutto e funghi",
+          "quantity": 1
+        },
+        {
+          "name": "acqua",
+          "quantity": 1
+        },
+        {
+          "name": "capricciosa",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Garibaldi 20",
+      "total_eur": 28.5,
+      "paid": false
+    },
+    {
+      "time": "20:13",
+      "customer": "Gallo Elena",
+      "phone": null,
+      "items": [
+        {
+          "name": "lasagne",
+          "quantity": 2
+        },
+        {
+          "name": "calzone",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": null,
+      "paid": true
+    },
+    {
+      "time": "20:43",
+      "customer": "Fontana Chiara",
+      "phone": "3606349222",
+      "items": [
+        {
+          "name": "diavola",
+          "quantity": 1
+        },
+        {
+          "name": "margherita",
+          "quantity": 2
+        },
+        {
+          "name": "coca cola",
+          "quantity": 1
+        },
+        {
+          "name": "quattro formaggi",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 30.0,
+      "paid": false
+    }
+  ],
+  "uncertain_fields": []
+}

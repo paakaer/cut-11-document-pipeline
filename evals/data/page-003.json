@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-04",
+  "entries": [
+    {
+      "time": null,
+      "customer": "Conti Giulia",
+      "phone": "3761436537",
+      "items": [
+        {
+          "name": "calzone",
+          "quantity": 2
+        },
+        {
+          "name": "quattro formaggi",
+          "quantity": 3
+        },
+        {
+          "name": "napoli",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Roma 90",
+      "total_eur": 49.0,
+      "paid": true
+    },
+    {
+      "time": "18:45",
+      "customer": "Greco Elena",
+      "phone": "3441979237",
+      "items": [
+        {
+          "name": "tiramisù",
+          "quantity": 1
+        },
+        {
+          "name": "prosciutto e funghi",
+          "quantity": 1
+        },
+        {
+          "name": "capricciosa",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Verdi 117",
+      "total_eur": 31.5,
+      "paid": false
+    },
+    {
+      "time": "19:00",
+      "customer": "Ferrari Anna",
+      "phone": "3287046557",
+      "items": [
+        {
+          "name": "margherita",
+          "quantity": 1
+        },
+        {
+          "name": "capricciosa",
+          "quantity": 1
+        },
+        {
+          "name": "acqua",
+          "quantity": 1
+        },
+        {
+          "name": "patatine",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 19.5,
+      "paid": true
+    }
+  ],
+  "uncertain_fields": []
+}

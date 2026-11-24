@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-09",
+  "entries": [
+    {
+      "time": "18:28",
+      "customer": "Mancini Luca",
+      "phone": "3059499657",
+      "items": [
+        {
+          "name": "patatine",
+          "quantity": 1
+        },
+        {
+          "name": "capricciosa",
+          "quantity": 1
+        },
+        {
+          "name": "calzone",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": null,
+      "paid": false
+    },
+    {
+      "time": "18:43",
+      "customer": "Giordano Laura",
+      "phone": "3397641323",
+      "items": [
+        {
+          "name": "acqua",
+          "quantity": 3
+        },
+        {
+          "name": "napoli",
+          "quantity": 1
+        },
+        {
+          "name": "lasagne",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 20.5,
+      "paid": false
+    },
+    {
+      "time": "18:58",
+      "customer": "Moretti Elena",
+      "phone": "3189916172",
+      "items": [
+        {
+          "name": "acqua",
+          "quantity": 2
+        },
+        {
+          "name": "quattro formaggi",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 11.0,
+      "paid": false
+    },
+    {
+      "time": null,
+      "customer": "Barbieri Luca",
+      "phone": "3906305009",
+      "items": [
+        {
+          "name": "calzone",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Corso Zanardelli 59",
+      "total_eur": 18.0,
+      "paid": true
+    },
+    {
+      "time": "19:28",
+      "customer": "Rossi Andrea",
+      "phone": "3588570951",
+      "items": [
+        {
+          "name": "marinara",
+          "quantity": 1
+        },
+        {
+          "name": "patatine",
+          "quantity": 2
+        },
+        {
+          "name": "capricciosa",
+          "quantity": 1
+        },
+        {
+          "name": "birra",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 24.0,
+      "paid": true
+    }
+  ],
+  "uncertain_fields": []
+}

@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-19",
+  "entries": [
+    {
+      "time": "18:50",
+      "customer": "Ferrari Anna",
+      "phone": "3162845128",
+      "items": [
+        {
+          "name": "capricciosa",
+          "quantity": 2
+        },
+        {
+          "name": "calzone",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 25.0,
+      "paid": true
+    },
+    {
+      "time": "19:35",
+      "customer": "Giordano Simone",
+      "phone": null,
+      "items": [
+        {
+          "name": "marinara",
+          "quantity": 1
+        },
+        {
+          "name": "margherita",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 11.0,
+      "paid": true
+    },
+    {
+      "time": "20:20",
+      "customer": "Mancini Luca",
+      "phone": "3548318563",
+      "items": [
+        {
+          "name": "diavola",
+          "quantity": 1
+        },
+        {
+          "name": "birra",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Cavour 108",
+      "total_eur": 16.5,
+      "paid": true
+    }
+  ],
+  "uncertain_fields": []
+}

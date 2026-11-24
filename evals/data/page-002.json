@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-03",
+  "entries": [
+    {
+      "time": "18:45",
+      "customer": "Bianchi Anna",
+      "phone": "3264628897",
+      "items": [
+        {
+          "name": "napoli",
+          "quantity": 1
+        },
+        {
+          "name": "lasagne",
+          "quantity": 1
+        },
+        {
+          "name": "patatine",
+          "quantity": 4
+        },
+        {
+          "name": "quattro formaggi",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 46.0,
+      "paid": false
+    },
+    {
+      "time": "19:00",
+      "customer": "Bruno Luca",
+      "phone": "3170586492",
+      "items": [
+        {
+          "name": "margherita",
+          "quantity": 1
+        },
+        {
+          "name": "birra",
+          "quantity": 3
+        },
+        {
+          "name": "coca cola",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Roma 68",
+      "total_eur": 21.0,
+      "paid": false
+    },
+    {
+      "time": "19:15",
+      "customer": "Moretti Anna",
+      "phone": "3040008838",
+      "items": [
+        {
+          "name": "quattro formaggi",
+          "quantity": 1
+        },
+        {
+          "name": "margherita",
+          "quantity": 3
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 26.0,
+      "paid": false
+    }
+  ],
+  "uncertain_fields": []
+}

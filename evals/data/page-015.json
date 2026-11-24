@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-16",
+  "entries": [
+    {
+      "time": "18:04",
+      "customer": "Mancini Federica",
+      "phone": "3179741972",
+      "items": [
+        {
+          "name": "marinara",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Mazzini 9",
+      "total_eur": 7.0,
+      "paid": false
+    },
+    {
+      "time": "18:19",
+      "customer": "Ferrari Sara",
+      "phone": "3303945256",
+      "items": [
+        {
+          "name": "coca cola",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 2.5,
+      "paid": false
+    },
+    {
+      "time": "18:49",
+      "customer": "Ricci Andrea",
+      "phone": "3161302051",
+      "items": [
+        {
+          "name": "calzone",
+          "quantity": 1
+        },
+        {
+          "name": "acqua",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 9.5,
+      "paid": false
+    }
+  ],
+  "uncertain_fields": []
+}

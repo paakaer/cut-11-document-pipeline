@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-05",
+  "entries": [
+    {
+      "time": "18:25",
+      "customer": "Moretti Sara",
+      "phone": "3865465925",
+      "items": [
+        {
+          "name": "tiramisù",
+          "quantity": 1
+        },
+        {
+          "name": "napoli",
+          "quantity": 2
+        },
+        {
+          "name": "prosciutto e funghi",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 26.5,
+      "paid": true
+    },
+    {
+      "time": "18:40",
+      "customer": "Rossi Giulia",
+      "phone": "3496685027",
+      "items": [
+        {
+          "name": "capricciosa",
+          "quantity": 1
+        },
+        {
+          "name": "diavola",
+          "quantity": 1
+        },
+        {
+          "name": "patatine",
+          "quantity": 1
+        },
+        {
+          "name": "margherita",
+          "quantity": 4
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": null,
+      "paid": true
+    },
+    {
+      "time": "18:55",
+      "customer": "Bruno Laura",
+      "phone": "3923597220",
+      "items": [
+        {
+          "name": "margherita",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Corso Zanardelli 91",
+      "total_eur": 8.0,
+      "paid": true
+    }
+  ],
+  "uncertain_fields": []
+}

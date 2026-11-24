@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-29",
+  "entries": [
+    {
+      "time": "18:14",
+      "customer": "Rossi Giulia",
+      "phone": null,
+      "items": [
+        {
+          "name": "tiramisù",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Cavour 67",
+      "total_eur": 11.0,
+      "paid": false
+    },
+    {
+      "time": "18:29",
+      "customer": "Ferrari Simone",
+      "phone": "3026672878",
+      "items": [
+        {
+          "name": "napoli",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 7.0,
+      "paid": false
+    },
+    {
+      "time": "18:44",
+      "customer": "Colombo Giulia",
+      "phone": "3286213671",
+      "items": [
+        {
+          "name": "acqua",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Piazza Loggia 14",
+      "total_eur": 5.0,
+      "paid": false
+    }
+  ],
+  "uncertain_fields": []
+}

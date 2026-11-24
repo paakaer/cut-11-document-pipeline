@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-15",
+  "entries": [
+    {
+      "time": "18:35",
+      "customer": "Mancini Laura",
+      "phone": "3292401021",
+      "items": [
+        {
+          "name": "birra",
+          "quantity": 3
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Roma 3",
+      "total_eur": 12.5,
+      "paid": true
+    },
+    {
+      "time": "18:50",
+      "customer": "Greco Francesca",
+      "phone": "3656647370",
+      "items": [
+        {
+          "name": "calzone",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Mazzini 22",
+      "total_eur": 10.0,
+      "paid": true
+    },
+    {
+      "time": "19:05",
+      "customer": "Rossi Simone",
+      "phone": "3095682088",
+      "items": [
+        {
+          "name": "tiramisù",
+          "quantity": 1
+        },
+        {
+          "name": "coca cola",
+          "quantity": 1
+        },
+        {
+          "name": "acqua",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Mazzini 64",
+      "total_eur": 12.0,
+      "paid": true
+    },
+    {
+      "time": "19:50",
+      "customer": "Giordano Laura",
+      "phone": "3396657992",
+      "items": [
+        {
+          "name": "coca cola",
+          "quantity": 1
+        },
+        {
+          "name": "tiramisù",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 11.5,
+      "paid": true
+    },
+    {
+      "time": "20:35",
+      "customer": "Costa Andrea",
+      "phone": "3529874170",
+      "items": [
+        {
+          "name": "quattro formaggi",
+          "quantity": 2
+        },
+        {
+          "name": "capricciosa",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": null,
+      "paid": true
+    }
+  ],
+  "uncertain_fields": []
+}

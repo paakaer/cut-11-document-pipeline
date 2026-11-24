@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-23",
+  "entries": [
+    {
+      "time": "18:28",
+      "customer": "Bianchi Chiara",
+      "phone": "3977867085",
+      "items": [
+        {
+          "name": "diavola",
+          "quantity": 1
+        },
+        {
+          "name": "prosciutto e funghi",
+          "quantity": 1
+        },
+        {
+          "name": "napoli",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 22.5,
+      "paid": true
+    },
+    {
+      "time": "19:13",
+      "customer": "Rossi Federica",
+      "phone": "3321605691",
+      "items": [
+        {
+          "name": "calzone",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Cavour 65",
+      "total_eur": null,
+      "paid": true
+    },
+    {
+      "time": "19:58",
+      "customer": "Ferrari Andrea",
+      "phone": "3652295011",
+      "items": [
+        {
+          "name": "lasagne",
+          "quantity": 1
+        },
+        {
+          "name": "margherita",
+          "quantity": 1
+        },
+        {
+          "name": "patatine",
+          "quantity": 3
+        },
+        {
+          "name": "diavola",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Trieste 109",
+      "total_eur": 35.0,
+      "paid": false
+    },
+    {
+      "time": "20:43",
+      "customer": "Moretti Giulia",
+      "phone": null,
+      "items": [
+        {
+          "name": "patatine",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Corso Zanardelli 116",
+      "total_eur": 9.0,
+      "paid": true
+    }
+  ],
+  "uncertain_fields": []
+}

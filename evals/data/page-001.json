@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-02",
+  "entries": [
+    {
+      "time": "18:20",
+      "customer": "Zanetti Laura",
+      "phone": "3913909960",
+      "items": [
+        {
+          "name": "tiramisù",
+          "quantity": 1
+        },
+        {
+          "name": "margherita",
+          "quantity": 2
+        },
+        {
+          "name": "marinara",
+          "quantity": 3
+        },
+        {
+          "name": "lasagne",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Corso Zanardelli 6",
+      "total_eur": 42.5,
+      "paid": false
+    },
+    {
+      "time": "18:35",
+      "customer": "Giordano Sara",
+      "phone": "3190937865",
+      "items": [
+        {
+          "name": "prosciutto e funghi",
+          "quantity": 1
+        },
+        {
+          "name": "diavola",
+          "quantity": 1
+        },
+        {
+          "name": "lasagne",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Piazza Loggia 75",
+      "total_eur": 35.5,
+      "paid": false
+    },
+    {
+      "time": "19:05",
+      "customer": "Conti Luca",
+      "phone": "3625276018",
+      "items": [
+        {
+          "name": "capricciosa",
+          "quantity": 2
+        },
+        {
+          "name": "birra",
+          "quantity": 1
+        },
+        {
+          "name": "diavola",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 35.5,
+      "paid": false
+    }
+  ],
+  "uncertain_fields": []
+}

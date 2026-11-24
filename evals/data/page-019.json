@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-20",
+  "entries": [
+    {
+      "time": "18:37",
+      "customer": "Bianchi Paolo",
+      "phone": "3616388586",
+      "items": [
+        {
+          "name": "tiramisù",
+          "quantity": 1
+        },
+        {
+          "name": "acqua",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Mazzini 55",
+      "total_eur": 8.0,
+      "paid": true
+    },
+    {
+      "time": "19:07",
+      "customer": "Colombo Francesca",
+      "phone": "3902047503",
+      "items": [
+        {
+          "name": "calzone",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 8.0,
+      "paid": false
+    },
+    {
+      "time": "19:22",
+      "customer": "Moretti Paolo",
+      "phone": null,
+      "items": [
+        {
+          "name": "quattro formaggi",
+          "quantity": 1
+        },
+        {
+          "name": "coca cola",
+          "quantity": 1
+        },
+        {
+          "name": "calzone",
+          "quantity": 2
+        },
+        {
+          "name": "birra",
+          "quantity": 3
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 37.0,
+      "paid": false
+    },
+    {
+      "time": "19:37",
+      "customer": "Ricci Sara",
+      "phone": "3066381937",
+      "items": [
+        {
+          "name": "coca cola",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 5.0,
+      "paid": true
+    },
+    {
+      "time": "20:07",
+      "customer": "Ferrari Matteo",
+      "phone": null,
+      "items": [
+        {
+          "name": "calzone",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 16.0,
+      "paid": true
+    }
+  ],
+  "uncertain_fields": []
+}

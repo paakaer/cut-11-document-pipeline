@@ -1,0 +1,3460 @@
+{
+  "extractor": "claude-haiku-5-5",
+  "date": "2026-11-24",
+  "pages_attempted": 30,
+  "failures": [],
+  "accuracy": {
+    "pages": 30,
+    "fields": 990,
+    "field_accuracy": 0.9727272727272728,
+    "perfect_pages": 12,
+    "perfect_page_rate": 0.4,
+    "missed_entries": 0,
+    "spurious_entries": 0,
+    "flag_recall": 0.07407407407407407,
+    "flag_precision": 0.05263157894736842,
+    "residual_error_rate": 0.025252525252525252,
+    "per_field": {
+      "date": {
+        "total": 30,
+        "correct": 30,
+        "accuracy": 1.0
+      },
+      "time": {
+        "total": 120,
+        "correct": 120,
+        "accuracy": 1.0
+      },
+      "customer": {
+        "total": 120,
+        "correct": 120,
+        "accuracy": 1.0
+      },
+      "phone": {
+        "total": 120,
+        "correct": 120,
+        "accuracy": 1.0
+      },
+      "items": {
+        "total": 120,
+        "correct": 93,
+        "accuracy": 0.775
+      },
+      "fulfilment": {
+        "total": 120,
+        "correct": 120,
+        "accuracy": 1.0
+      },
+      "address": {
+        "total": 120,
+        "correct": 120,
+        "accuracy": 1.0
+      },
+      "total_eur": {
+        "total": 120,
+        "correct": 120,
+        "accuracy": 1.0
+      },
+      "paid": {
+        "total": 120,
+        "correct": 120,
+        "accuracy": 1.0
+      }
+    }
+  },
+  "cost_per_document_usd": 0.0011421166666666666,
+  "cost_per_1000_documents_eur": 0.9822203333333334,
+  "total_cost_usd": 0.0342635,
+  "latency_ms_p50": 6338,
+  "latency_ms_p95": 7722,
+  "per_page": [
+    {
+      "page": "page-001.jpg",
+      "fields": 25,
+      "wrong": 1,
+      "wrong_fields": [
+        "entries[2].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 2,
+      "cost_usd": 0.0010665,
+      "latency_ms": 5705,
+      "input_tokens": 4540,
+      "output_tokens": 1225,
+      "item_errors": [
+        {
+          "read": "1x birra, 2x capri, 2x diavola",
+          "truth": "1x birra, 2x capricciosa, 2x diavola"
+        }
+      ],
+      "prediction": {
+        "date": "2026-10-02",
+        "entries": [
+          {
+            "time": "18:20",
+            "customer": "Zanetti Laura",
+            "phone": "3913909960",
+            "items": [
+              {
+                "name": "tiramis\u00f9",
+                "quantity": 1
+              },
+              {
+                "name": "margherita",
+                "quantity": 2
+              },
+              {
+                "name": "marinara",
+                "quantity": 3
+              },
+              {
+                "name": "lasagne",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Corso Zanardelli 6",
+            "total_eur": 42.5,
+            "paid": false
+          },
+          {
+            "time": "18:35",
+            "customer": "Giordano Sara",
+            "phone": "3190937865",
+            "items": [
+              {
+                "name": "prosciutto e funghi",
+                "quantity": 1
+              },
+              {
+                "name": "diavola",
+                "quantity": 1
+              },
+              {
+                "name": "lasagne",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Piazza Loggia 75",
+            "total_eur": 35.5,
+            "paid": false
+          },
+          {
+            "time": "19:05",
+            "customer": "Conti Luca",
+            "phone": "3625276018",
+            "items": [
+              {
+                "name": "capri",
+                "quantity": 2
+              },
+              {
+                "name": "birra",
+                "quantity": 1
+              },
+              {
+                "name": "diavola",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 35.5,
+            "paid": false
+          }
+        ],
+        "uncertain_fields": [
+          "entries[1].items[0].name",
+          "entries[2].items[0].name"
+        ]
+      }
+    },
+    {
+      "page": "page-002.jpg",
+      "fields": 25,
+      "wrong": 1,
+      "wrong_fields": [
+        "entries[0].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 3,
+      "cost_usd": 0.001157,
+      "latency_ms": 6706,
+      "input_tokens": 4540,
+      "output_tokens": 1406,
+      "item_errors": [
+        {
+          "read": "1x lasagne, 1x napoletana, 4x patatine fritte, 2x quattro formaggi",
+          "truth": "1x lasagne, 1x napoli, 4x patatine, 2x quattro formaggi"
+        }
+      ],
+      "prediction": {
+        "date": "2026-10-03",
+        "entries": [
+          {
+            "time": "18:45",
+            "customer": "Bianchi Anna",
+            "phone": "3264628897",
+            "items": [
+              {
+                "name": "napoletana",
+                "quantity": 1
+              },
+              {
+                "name": "lasagne",
+                "quantity": 1
+              },
+              {
+                "name": "patatine fritte",
+                "quantity": 4
+              },
+              {
+                "name": "quattro formaggi",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 46.0,
+            "paid": false
+          },
+          {
+            "time": "19:00",
+            "customer": "Bruno Luca",
+            "phone": "3170586492",
+            "items": [
+              {
+                "name": "margherita",
+                "quantity": 1
+              },
+              {
+                "name": "birra",
+                "quantity": 3
+              },
+              {
+                "name": "coca cola",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Roma 68",
+            "total_eur": 21.0,
+            "paid": false
+          },
+          {
+            "time": "19:15",
+            "customer": "Moretti Anna",
+            "phone": "3040008838",
+            "items": [
+              {
+                "name": "quattro formaggi",
+                "quantity": 1
+              },
+              {
+                "name": "margherita",
+                "quantity": 3
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 26.0,
+            "paid": false
+          }
+        ],
+        "uncertain_fields": [
+          "entries[0].items[0].name",
+          "entries[0].items[2].name",
+          "entries[1].items[2].name"
+        ]
+      }
+    },
+    {
+      "page": "page-003.jpg",
+      "fields": 25,
+      "wrong": 3,
+      "wrong_fields": [
+        "entries[2].items",
+        "entries[1].items",
+        "entries[0].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 3,
+      "cost_usd": 0.0013015,
+      "latency_ms": 8289,
+      "input_tokens": 4540,
+      "output_tokens": 1695,
+      "item_errors": [
+        {
+          "read": "1x acqua, 1x capri, 1x margherita, 1x patatine",
+          "truth": "1x acqua, 1x capricciosa, 1x margherita, 1x patatine"
+        },
+        {
+          "read": "2x capri, 1x prosciutto e funghi, 1x tiramis\u00f9",
+          "truth": "2x capricciosa, 1x prosciutto e funghi, 1x tiramis\u00f9"
+        },
+        {
+          "read": "2x calzone, 3x form, 1x napoletana",
+          "truth": "2x calzone, 1x napoli, 3x quattro formaggi"
+        }
+      ],
+      "prediction": {
+        "date": "2026-10-04",
+        "entries": [
+          {
+            "time": null,
+            "customer": "Conti Giulia",
+            "phone": "3761436537",
+            "items": [
+              {
+                "name": "calzone",
+                "quantity": 2
+              },
+              {
+                "name": "form",
+                "quantity": 3
+              },
+              {
+                "name": "napoletana",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Roma 90",
+            "total_eur": 49.0,
+            "paid": true
+          },
+          {
+            "time": "18:45",
+            "customer": "Greco Elena",
+            "phone": "3441979237",
+            "items": [
+              {
+                "name": "tiramis\u00f9",
+                "quantity": 1
+              },
+              {
+                "name": "prosciutto e funghi",
+                "quantity": 1
+              },
+              {
+                "name": "capri",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Verdi 117",
+            "total_eur": 31.5,
+            "paid": false
+          },
+          {
+            "time": "19:00",
+            "customer": "Ferrari Anna",
+            "phone": "3287046557",
+            "items": [
+              {
+                "name": "margherita",
+                "quantity": 1
+              },
+              {
+                "name": "capri",
+                "quantity": 1
+              },
+              {
+                "name": "acqua",
+                "quantity": 1
+              },
+              {
+                "name": "patatine",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 19.5,
+            "paid": true
+          }
+        ],
+        "uncertain_fields": [
+          "entries[0].items[1]",
+          "entries[0].items[2]",
+          "entries[0].items[0].quantity"
+        ]
+      }
+    },
+    {
+      "page": "page-004.jpg",
+      "fields": 25,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 3,
+      "cost_usd": 0.0011005,
+      "latency_ms": 6054,
+      "input_tokens": 4540,
+      "output_tokens": 1293,
+      "item_errors": [],
+      "prediction": {
+        "date": "2026-10-05",
+        "entries": [
+          {
+            "time": "18:25",
+            "customer": "Moretti Sara",
+            "phone": "3865465925",
+            "items": [
+              {
+                "name": "tiramis\u00f9",
+                "quantity": 1
+              },
+              {
+                "name": "napoli",
+                "quantity": 2
+              },
+              {
+                "name": "prosciutto e funghi",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 26.5,
+            "paid": true
+          },
+          {
+            "time": "18:40",
+            "customer": "Rossi Giulia",
+            "phone": "3496685027",
+            "items": [
+              {
+                "name": "capricciosa",
+                "quantity": 1
+              },
+              {
+                "name": "diavola",
+                "quantity": 1
+              },
+              {
+                "name": "patatine",
+                "quantity": 1
+              },
+              {
+                "name": "margherita",
+                "quantity": 4
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": null,
+            "paid": true
+          },
+          {
+            "time": "18:55",
+            "customer": "Bruno Laura",
+            "phone": "3923597220",
+            "items": [
+              {
+                "name": "margherita",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Corso Zanardelli 91",
+            "total_eur": 8.0,
+            "paid": true
+          }
+        ],
+        "uncertain_fields": [
+          "entries[1].items[0].name",
+          "entries[2].address",
+          "entries[1].total_eur"
+        ]
+      }
+    },
+    {
+      "page": "page-005.jpg",
+      "fields": 41,
+      "wrong": 1,
+      "wrong_fields": [
+        "entries[3].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 7,
+      "cost_usd": 0.001237,
+      "latency_ms": 6312,
+      "input_tokens": 4540,
+      "output_tokens": 1566,
+      "item_errors": [
+        {
+          "read": "1x calzone, 1x coca",
+          "truth": "1x calzone, 1x coca cola"
+        }
+      ],
+      "prediction": {
+        "date": "2026-10-06",
+        "entries": [
+          {
+            "time": "18:19",
+            "customer": "Bruno Paolo",
+            "phone": "3674827534",
+            "items": [
+              {
+                "name": "lasagne",
+                "quantity": 1
+              },
+              {
+                "name": "capricciosa",
+                "quantity": 1
+              },
+              {
+                "name": "prosciutto e funghi",
+                "quantity": 2
+              },
+              {
+                "name": "calzone",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 49.5,
+            "paid": false
+          },
+          {
+            "time": "18:49",
+            "customer": "Ferrari Francesca",
+            "phone": "3460195285",
+            "items": [
+              {
+                "name": "tiramis\u00f9",
+                "quantity": 2
+              },
+              {
+                "name": "diavola",
+                "quantity": 2
+              },
+              {
+                "name": "calzone",
+                "quantity": 1
+              },
+              {
+                "name": "margherita",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Cavour 2",
+            "total_eur": 46.0,
+            "paid": false
+          },
+          {
+            "time": "19:04",
+            "customer": "Marino Simone",
+            "phone": "3236829918",
+            "items": [
+              {
+                "name": "tiramis\u00f9",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 4.5,
+            "paid": false
+          },
+          {
+            "time": "19:34",
+            "customer": "Colombo Andrea",
+            "phone": "3277807727",
+            "items": [
+              {
+                "name": "calzone",
+                "quantity": 1
+              },
+              {
+                "name": "coca",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 10.5,
+            "paid": true
+          },
+          {
+            "time": "19:49",
+            "customer": "Moretti Francesca",
+            "phone": "3125009051",
+            "items": [
+              {
+                "name": "diavola",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 15.0,
+            "paid": false
+          }
+        ],
+        "uncertain_fields": [
+          "entries[0].items[1].name",
+          "entries[0].items[1].quantity",
+          "entries[0].items[0].quantity",
+          "entries[3].items[1].name",
+          "entries[3].phone",
+          "entries[1].address",
+          "entries[0].phone"
+        ]
+      }
+    },
+    {
+      "page": "page-006.jpg",
+      "fields": 41,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 2,
+      "cost_usd": 0.001277,
+      "latency_ms": 7052,
+      "input_tokens": 4540,
+      "output_tokens": 1646,
+      "item_errors": [],
+      "prediction": {
+        "date": "2026-10-07",
+        "entries": [
+          {
+            "time": "18:58",
+            "customer": "Bruno Luca",
+            "phone": null,
+            "items": [
+              {
+                "name": "calzone",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Viale Venezia 114",
+            "total_eur": 18.0,
+            "paid": false
+          },
+          {
+            "time": "19:43",
+            "customer": "Bruno Federica",
+            "phone": "3525302782",
+            "items": [
+              {
+                "name": "prosciutto e funghi",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 16.0,
+            "paid": false
+          },
+          {
+            "time": "19:58",
+            "customer": "Costa Simone",
+            "phone": null,
+            "items": [
+              {
+                "name": "prosciutto e funghi",
+                "quantity": 1
+              },
+              {
+                "name": "acqua",
+                "quantity": 1
+              },
+              {
+                "name": "capricciosa",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Garibaldi 20",
+            "total_eur": 28.5,
+            "paid": false
+          },
+          {
+            "time": "20:13",
+            "customer": "Gallo Elena",
+            "phone": null,
+            "items": [
+              {
+                "name": "lasagne",
+                "quantity": 2
+              },
+              {
+                "name": "calzone",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": null,
+            "paid": true
+          },
+          {
+            "time": "20:43",
+            "customer": "Fontana Chiara",
+            "phone": "3606349222",
+            "items": [
+              {
+                "name": "diavola",
+                "quantity": 1
+              },
+              {
+                "name": "margherita",
+                "quantity": 2
+              },
+              {
+                "name": "coca cola",
+                "quantity": 1
+              },
+              {
+                "name": "quattro formaggi",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 30.0,
+            "paid": false
+          }
+        ],
+        "uncertain_fields": [
+          "entries[0].items[0].name",
+          "entries[4].items[0].name"
+        ]
+      }
+    },
+    {
+      "page": "page-007.jpg",
+      "fields": 41,
+      "wrong": 2,
+      "wrong_fields": [
+        "entries[3].items",
+        "entries[1].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 7,
+      "cost_usd": 0.001364,
+      "latency_ms": 7722,
+      "input_tokens": 4540,
+      "output_tokens": 1820,
+      "item_errors": [
+        {
+          "read": "2x acqua, 1x calzone xl, 1x patatine, 2x prosciutto e funghi",
+          "truth": "2x acqua, 1x calzone, 1x patatine, 2x prosciutto e funghi"
+        },
+        {
+          "read": "1x 14 form, 2x lasagne",
+          "truth": "2x lasagne, 1x quattro formaggi"
+        }
+      ],
+      "prediction": {
+        "date": "2026-10-08",
+        "entries": [
+          {
+            "time": "18:35",
+            "customer": "Fontana Luca",
+            "phone": "3551482145",
+            "items": [
+              {
+                "name": "capricciosa",
+                "quantity": 1
+              },
+              {
+                "name": "prosciutto e funghi",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": null,
+            "paid": false
+          },
+          {
+            "time": "19:20",
+            "customer": "Colombo Francesca",
+            "phone": "3060048046",
+            "items": [
+              {
+                "name": "lasagne",
+                "quantity": 2
+              },
+              {
+                "name": "14 form",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 26.0,
+            "paid": false
+          },
+          {
+            "time": "19:35",
+            "customer": "Zanetti Paolo",
+            "phone": "3691228810",
+            "items": [
+              {
+                "name": "capricciosa",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 8.5,
+            "paid": true
+          },
+          {
+            "time": "19:50",
+            "customer": "Marino Giulia",
+            "phone": "3191537960",
+            "items": [
+              {
+                "name": "acqua",
+                "quantity": 2
+              },
+              {
+                "name": "calzone xl",
+                "quantity": 1
+              },
+              {
+                "name": "patatine",
+                "quantity": 1
+              },
+              {
+                "name": "prosciutto e funghi",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Roma 29",
+            "total_eur": 32.5,
+            "paid": false
+          },
+          {
+            "time": "20:05",
+            "customer": "Lombardi Andrea",
+            "phone": null,
+            "items": [
+              {
+                "name": "margherita",
+                "quantity": 1
+              },
+              {
+                "name": "patatine",
+                "quantity": 1
+              },
+              {
+                "name": "capricciosa",
+                "quantity": 2
+              },
+              {
+                "name": "coca cola",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Piazza Loggia 9",
+            "total_eur": 31.0,
+            "paid": true
+          }
+        ],
+        "uncertain_fields": [
+          "date",
+          "entries[0].phone",
+          "entries[0].items[0].name",
+          "entries[1].items",
+          "entries[3].items[1].name",
+          "entries[2].items[0].name",
+          "entries[4].items[0].name"
+        ]
+      }
+    },
+    {
+      "page": "page-008.jpg",
+      "fields": 41,
+      "wrong": 1,
+      "wrong_fields": [
+        "entries[2].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 5,
+      "cost_usd": 0.0012845,
+      "latency_ms": 7545,
+      "input_tokens": 4540,
+      "output_tokens": 1661,
+      "item_errors": [
+        {
+          "read": "2x acqua, 4x form",
+          "truth": "2x acqua, 1x quattro formaggi"
+        }
+      ],
+      "prediction": {
+        "date": "2026-10-09",
+        "entries": [
+          {
+            "time": "18:28",
+            "customer": "Mancini Luca",
+            "phone": "3059499657",
+            "items": [
+              {
+                "name": "patatine",
+                "quantity": 1
+              },
+              {
+                "name": "capricciosa",
+                "quantity": 1
+              },
+              {
+                "name": "calzone",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": null,
+            "paid": false
+          },
+          {
+            "time": "18:43",
+            "customer": "Giordano Laura",
+            "phone": "3397641323",
+            "items": [
+              {
+                "name": "acqua",
+                "quantity": 3
+              },
+              {
+                "name": "napoli",
+                "quantity": 1
+              },
+              {
+                "name": "lasagne",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 20.5,
+            "paid": false
+          },
+          {
+            "time": "18:58",
+            "customer": "Moretti Elena",
+            "phone": "3189916172",
+            "items": [
+              {
+                "name": "acqua",
+                "quantity": 2
+              },
+              {
+                "name": "form",
+                "quantity": 4
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 11.0,
+            "paid": false
+          },
+          {
+            "time": null,
+            "customer": "Barbieri Luca",
+            "phone": "3906305009",
+            "items": [
+              {
+                "name": "calzone",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Corso Zanardelli 59",
+            "total_eur": 18.0,
+            "paid": true
+          },
+          {
+            "time": "19:28",
+            "customer": "Rossi Andrea",
+            "phone": "3588570951",
+            "items": [
+              {
+                "name": "marinara",
+                "quantity": 1
+              },
+              {
+                "name": "patatine",
+                "quantity": 2
+              },
+              {
+                "name": "capricciosa",
+                "quantity": 1
+              },
+              {
+                "name": "birra",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 24.0,
+            "paid": true
+          }
+        ],
+        "uncertain_fields": [
+          "date",
+          "entries[2].items[1].name",
+          "entries[4].items[0].name",
+          "entries[0].phone",
+          "entries[1].phone"
+        ]
+      }
+    },
+    {
+      "page": "page-009.jpg",
+      "fields": 33,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 2,
+      "cost_usd": 0.0009945,
+      "latency_ms": 4775,
+      "input_tokens": 4540,
+      "output_tokens": 1081,
+      "item_errors": [],
+      "prediction": {
+        "date": "2026-10-10",
+        "entries": [
+          {
+            "time": "18:47",
+            "customer": "Mancini Matteo",
+            "phone": null,
+            "items": [
+              {
+                "name": "birra",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 3.5,
+            "paid": true
+          },
+          {
+            "time": "19:02",
+            "customer": "Colombo Marco",
+            "phone": "3511172860",
+            "items": [
+              {
+                "name": "birra",
+                "quantity": 2
+              },
+              {
+                "name": "tiramis\u00f9",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 11.5,
+            "paid": true
+          },
+          {
+            "time": "19:17",
+            "customer": "Greco Elena",
+            "phone": "3420441038",
+            "items": [
+              {
+                "name": "lasagne",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": null,
+            "paid": true
+          },
+          {
+            "time": null,
+            "customer": "Gallo Stefano",
+            "phone": "3866266620",
+            "items": [
+              {
+                "name": "margherita",
+                "quantity": 1
+              },
+              {
+                "name": "napoli",
+                "quantity": 1
+              },
+              {
+                "name": "coca-cola",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Corso Zanardelli 78",
+            "total_eur": 17.5,
+            "paid": false
+          }
+        ],
+        "uncertain_fields": [
+          "entries[3].items[1].name",
+          "entries[3].items[2].name"
+        ]
+      }
+    },
+    {
+      "page": "page-010.jpg",
+      "fields": 41,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 10,
+      "cost_usd": 0.0011485,
+      "latency_ms": 5944,
+      "input_tokens": 4540,
+      "output_tokens": 1389,
+      "item_errors": [],
+      "prediction": {
+        "date": "2026-10-11",
+        "entries": [
+          {
+            "time": "18:34",
+            "customer": "Colombo Giulia",
+            "phone": "3138814750",
+            "items": [
+              {
+                "name": "capricciosa",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 8.5,
+            "paid": false
+          },
+          {
+            "time": "19:19",
+            "customer": "Ferrari Davide",
+            "phone": "3439409910",
+            "items": [
+              {
+                "name": "capricciosa",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 8.5,
+            "paid": true
+          },
+          {
+            "time": "19:34",
+            "customer": "Ferrari Simone",
+            "phone": "3812967000",
+            "items": [
+              {
+                "name": "margherita",
+                "quantity": 1
+              },
+              {
+                "name": "diavola",
+                "quantity": 1
+              },
+              {
+                "name": "napoli",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Trieste 75",
+            "total_eur": 22.5,
+            "paid": true
+          },
+          {
+            "time": "19:49",
+            "customer": "Barbieri Chiara",
+            "phone": "3113127488",
+            "items": [
+              {
+                "name": "patatine",
+                "quantity": 2
+              },
+              {
+                "name": "napoli",
+                "quantity": 2
+              },
+              {
+                "name": "marinara",
+                "quantity": 1
+              },
+              {
+                "name": "birra",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Garibaldi 42",
+            "total_eur": 35.0,
+            "paid": false
+          },
+          {
+            "time": "20:04",
+            "customer": "Ricci Elena",
+            "phone": "3883101079",
+            "items": [
+              {
+                "name": "lasagne",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 9.0,
+            "paid": true
+          }
+        ],
+        "uncertain_fields": [
+          "date",
+          "entries[0].phone",
+          "entries[0].items[0].name",
+          "entries[1].items[0].name",
+          "entries[1].phone",
+          "entries[2].phone",
+          "entries[3].phone",
+          "entries[3].items[0].quantity",
+          "entries[4].phone",
+          "entries[4].paid"
+        ]
+      }
+    },
+    {
+      "page": "page-011.jpg",
+      "fields": 41,
+      "wrong": 2,
+      "wrong_fields": [
+        "entries[2].items",
+        "entries[0].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 6,
+      "cost_usd": 0.0013205,
+      "latency_ms": 7483,
+      "input_tokens": 4540,
+      "output_tokens": 1733,
+      "item_errors": [
+        {
+          "read": "2x acqua, 2x birra, 1x capri, 2x coca cola",
+          "truth": "2x acqua, 2x birra, 1x capricciosa, 2x coca cola"
+        },
+        {
+          "read": "1x calzone, 1x capricciosa, 4x formaggio, 2x marinara",
+          "truth": "1x calzone, 1x capricciosa, 2x marinara, 1x quattro formaggi"
+        }
+      ],
+      "prediction": {
+        "date": "2026-10-12",
+        "entries": [
+          {
+            "time": "18:02",
+            "customer": "Zanetti Marco",
+            "phone": "3208465141",
+            "items": [
+              {
+                "name": "marinara",
+                "quantity": 2
+              },
+              {
+                "name": "calzone",
+                "quantity": 1
+              },
+              {
+                "name": "capricciosa",
+                "quantity": 1
+              },
+              {
+                "name": "formaggio",
+                "quantity": 4
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Cavour 15",
+            "total_eur": 36.5,
+            "paid": false
+          },
+          {
+            "time": "18:47",
+            "customer": "Barbieri Paolo",
+            "phone": "3973593162",
+            "items": [
+              {
+                "name": "tiramis\u00f9",
+                "quantity": 2
+              },
+              {
+                "name": "margherita",
+                "quantity": 4
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Milano 98",
+            "total_eur": null,
+            "paid": true
+          },
+          {
+            "time": "19:02",
+            "customer": "Rossi Luca",
+            "phone": "3608485295",
+            "items": [
+              {
+                "name": "birra",
+                "quantity": 2
+              },
+              {
+                "name": "capri",
+                "quantity": 1
+              },
+              {
+                "name": "coca cola",
+                "quantity": 2
+              },
+              {
+                "name": "acqua",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Viale Venezia 40",
+            "total_eur": 25.5,
+            "paid": true
+          },
+          {
+            "time": "19:17",
+            "customer": "Ferrari Matteo",
+            "phone": "3721894863",
+            "items": [
+              {
+                "name": "prosciutto e funghi",
+                "quantity": 1
+              },
+              {
+                "name": "margherita",
+                "quantity": 1
+              },
+              {
+                "name": "coca cola",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Viale Venezia 33",
+            "total_eur": 18.5,
+            "paid": false
+          },
+          {
+            "time": "19:32",
+            "customer": "Colombo Davide",
+            "phone": "3860017039",
+            "items": [
+              {
+                "name": "acqua",
+                "quantity": 2
+              },
+              {
+                "name": "lasagne",
+                "quantity": 2
+              },
+              {
+                "name": "prosciutto e funghi",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 29.0,
+            "paid": false
+          }
+        ],
+        "uncertain_fields": [
+          "date",
+          "entries[0].items[0].name",
+          "entries[0].items[3].name",
+          "entries[2].items[1].name",
+          "entries[1].total_eur",
+          "entries[3].items[0].name"
+        ]
+      }
+    },
+    {
+      "page": "page-012.jpg",
+      "fields": 25,
+      "wrong": 1,
+      "wrong_fields": [
+        "entries[0].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 4,
+      "cost_usd": 0.000962,
+      "latency_ms": 4439,
+      "input_tokens": 4540,
+      "output_tokens": 1016,
+      "item_errors": [
+        {
+          "read": "1x lasagne, 1x nap",
+          "truth": "1x lasagne, 1x napoli"
+        }
+      ],
+      "prediction": {
+        "date": "2026-10-13",
+        "entries": [
+          {
+            "time": "18:03",
+            "customer": "Ricci Luca",
+            "phone": "3513451177",
+            "items": [
+              {
+                "name": "lasagne",
+                "quantity": 1
+              },
+              {
+                "name": "nap",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Milano 24",
+            "total_eur": null,
+            "paid": false
+          },
+          {
+            "time": "18:18",
+            "customer": "Costa Giulia",
+            "phone": null,
+            "items": [
+              {
+                "name": "tiramis\u00f9",
+                "quantity": 2
+              },
+              {
+                "name": "coca cola",
+                "quantity": 2
+              },
+              {
+                "name": "margherita",
+                "quantity": 2
+              },
+              {
+                "name": "lasagne",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Viale Venezia 85",
+            "total_eur": 37.0,
+            "paid": false
+          },
+          {
+            "time": "18:33",
+            "customer": "Ricci Davide",
+            "phone": "3593160205",
+            "items": [
+              {
+                "name": "margherita",
+                "quantity": 1
+              },
+              {
+                "name": "patatine",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Piazza Loggia 30",
+            "total_eur": 15.0,
+            "paid": true
+          }
+        ],
+        "uncertain_fields": [
+          "entries[0].items[1].name",
+          "entries[0].phone",
+          "entries[2].phone",
+          "entries[0].total_eur"
+        ]
+      }
+    },
+    {
+      "page": "page-013.jpg",
+      "fields": 33,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 3,
+      "cost_usd": 0.001209,
+      "latency_ms": 6588,
+      "input_tokens": 4540,
+      "output_tokens": 1510,
+      "item_errors": [],
+      "prediction": {
+        "date": "2026-10-14",
+        "entries": [
+          {
+            "time": "18:39",
+            "customer": "Costa Giulia",
+            "phone": "3714208217",
+            "items": [
+              {
+                "name": "calzone",
+                "quantity": 1
+              },
+              {
+                "name": "marinara",
+                "quantity": 1
+              },
+              {
+                "name": "quattro formaggi",
+                "quantity": 2
+              },
+              {
+                "name": "tiramis\u00f9",
+                "quantity": 3
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Cavour 5",
+            "total_eur": 44.5,
+            "paid": true
+          },
+          {
+            "time": "18:54",
+            "customer": "Ricci Sara",
+            "phone": "3528962326",
+            "items": [
+              {
+                "name": "prosciutto e funghi",
+                "quantity": 1
+              },
+              {
+                "name": "lasagne",
+                "quantity": 2
+              },
+              {
+                "name": "marinara",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 36.0,
+            "paid": false
+          },
+          {
+            "time": "19:39",
+            "customer": "Mancini Federica",
+            "phone": "3294763237",
+            "items": [
+              {
+                "name": "napoli",
+                "quantity": 1
+              },
+              {
+                "name": "marinara",
+                "quantity": 1
+              },
+              {
+                "name": "capricciosa",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": null,
+            "paid": true
+          },
+          {
+            "time": "20:09",
+            "customer": "Costa Anna",
+            "phone": "3536003950",
+            "items": [
+              {
+                "name": "margherita",
+                "quantity": 1
+              },
+              {
+                "name": "quattro formaggi",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": null,
+            "paid": false
+          }
+        ],
+        "uncertain_fields": [
+          "entries[0].items[2]",
+          "entries[0].items[2].quantity",
+          "entries[0].items[1].name"
+        ]
+      }
+    },
+    {
+      "page": "page-014.jpg",
+      "fields": 41,
+      "wrong": 1,
+      "wrong_fields": [
+        "entries[4].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 3,
+      "cost_usd": 0.0011045,
+      "latency_ms": 5447,
+      "input_tokens": 4540,
+      "output_tokens": 1301,
+      "item_errors": [
+        {
+          "read": "2x capri, 2x quattro formaggi",
+          "truth": "2x capricciosa, 2x quattro formaggi"
+        }
+      ],
+      "prediction": {
+        "date": "2026-10-15",
+        "entries": [
+          {
+            "time": "18:35",
+            "customer": "Mancini Laura",
+            "phone": "3292401021",
+            "items": [
+              {
+                "name": "birra",
+                "quantity": 3
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Roma 3",
+            "total_eur": 12.5,
+            "paid": true
+          },
+          {
+            "time": "18:50",
+            "customer": "Greco Francesca",
+            "phone": "3656647370",
+            "items": [
+              {
+                "name": "calzone",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Mazzini 22",
+            "total_eur": 10.0,
+            "paid": true
+          },
+          {
+            "time": "19:05",
+            "customer": "Rossi Simone",
+            "phone": "3095682088",
+            "items": [
+              {
+                "name": "tiramis\u00f9",
+                "quantity": 1
+              },
+              {
+                "name": "coca cola",
+                "quantity": 1
+              },
+              {
+                "name": "acqua",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Mazzini 64",
+            "total_eur": 12.0,
+            "paid": true
+          },
+          {
+            "time": "19:50",
+            "customer": "Giordano Laura",
+            "phone": "3396657992",
+            "items": [
+              {
+                "name": "coca cola",
+                "quantity": 1
+              },
+              {
+                "name": "tiramis\u00f9",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 11.5,
+            "paid": true
+          },
+          {
+            "time": "20:35",
+            "customer": "Costa Andrea",
+            "phone": "3529874170",
+            "items": [
+              {
+                "name": "quattro formaggi",
+                "quantity": 2
+              },
+              {
+                "name": "capri",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": null,
+            "paid": true
+          }
+        ],
+        "uncertain_fields": [
+          "entries[2].items[1].name",
+          "entries[4].items[1].name",
+          "entries[4].total_eur"
+        ]
+      }
+    },
+    {
+      "page": "page-015.jpg",
+      "fields": 25,
+      "wrong": 1,
+      "wrong_fields": [
+        "entries[1].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 2,
+      "cost_usd": 0.000865,
+      "latency_ms": 3985,
+      "input_tokens": 4540,
+      "output_tokens": 822,
+      "item_errors": [
+        {
+          "read": "1x coca",
+          "truth": "1x coca cola"
+        }
+      ],
+      "prediction": {
+        "date": "2026-10-16",
+        "entries": [
+          {
+            "time": "18:04",
+            "customer": "Mancini Federica",
+            "phone": "3179741972",
+            "items": [
+              {
+                "name": "marinara",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Mazzini 9",
+            "total_eur": 7.0,
+            "paid": false
+          },
+          {
+            "time": "18:19",
+            "customer": "Ferrari Sara",
+            "phone": "3303945256",
+            "items": [
+              {
+                "name": "coca",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 2.5,
+            "paid": false
+          },
+          {
+            "time": "18:49",
+            "customer": "Ricci Andrea",
+            "phone": "3161302051",
+            "items": [
+              {
+                "name": "calzone",
+                "quantity": 1
+              },
+              {
+                "name": "acqua",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 9.5,
+            "paid": false
+          }
+        ],
+        "uncertain_fields": [
+          "entries[1].items[0].name",
+          "entries[1].phone"
+        ]
+      }
+    },
+    {
+      "page": "page-016.jpg",
+      "fields": 41,
+      "wrong": 1,
+      "wrong_fields": [
+        "entries[2].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 5,
+      "cost_usd": 0.001131,
+      "latency_ms": 5669,
+      "input_tokens": 4540,
+      "output_tokens": 1354,
+      "item_errors": [
+        {
+          "read": "1x coca",
+          "truth": "1x coca cola"
+        }
+      ],
+      "prediction": {
+        "date": "2026-10-17",
+        "entries": [
+          {
+            "time": "18:28",
+            "customer": "Fontana Paolo",
+            "phone": "3128009371",
+            "items": [
+              {
+                "name": "acqua",
+                "quantity": 2
+              },
+              {
+                "name": "margherita",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 9.0,
+            "paid": false
+          },
+          {
+            "time": "19:13",
+            "customer": "Ferrari Luca",
+            "phone": "3102444137",
+            "items": [
+              {
+                "name": "acqua",
+                "quantity": 1
+              },
+              {
+                "name": "diavola",
+                "quantity": 3
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Cavour 102",
+            "total_eur": 26.0,
+            "paid": false
+          },
+          {
+            "time": "19:28",
+            "customer": "Barbieri Paolo",
+            "phone": "3876733448",
+            "items": [
+              {
+                "name": "coca",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Corso Zanardelli 18",
+            "total_eur": null,
+            "paid": false
+          },
+          {
+            "time": "20:13",
+            "customer": "Giordano Federica",
+            "phone": "3563257628",
+            "items": [
+              {
+                "name": "capricciosa",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Mazzini 55",
+            "total_eur": 10.5,
+            "paid": false
+          },
+          {
+            "time": "20:58",
+            "customer": "Giordano Sara",
+            "phone": "3699356044",
+            "items": [
+              {
+                "name": "birra",
+                "quantity": 2
+              },
+              {
+                "name": "capricciosa",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": null,
+            "paid": false
+          }
+        ],
+        "uncertain_fields": [
+          "entries[1].items[1].name",
+          "entries[4].items[1].name",
+          "entries[2].items[0].name",
+          "entries[2].total_eur",
+          "entries[4].total_eur"
+        ]
+      }
+    },
+    {
+      "page": "page-017.jpg",
+      "fields": 41,
+      "wrong": 1,
+      "wrong_fields": [
+        "entries[0].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 6,
+      "cost_usd": 0.001316,
+      "latency_ms": 7220,
+      "input_tokens": 4540,
+      "output_tokens": 1724,
+      "item_errors": [
+        {
+          "read": "1x capricciosa, 1x coca, 2x margherita, 2x prosciutto e funghi",
+          "truth": "1x capricciosa, 1x coca cola, 2x margherita, 2x prosciutto e funghi"
+        }
+      ],
+      "prediction": {
+        "date": "2026-10-18",
+        "entries": [
+          {
+            "time": "18:41",
+            "customer": "Mancini Stefano",
+            "phone": "3285870131",
+            "items": [
+              {
+                "name": "margherita",
+                "quantity": 2
+              },
+              {
+                "name": "capricciosa",
+                "quantity": 1
+              },
+              {
+                "name": "prosciutto e funghi",
+                "quantity": 2
+              },
+              {
+                "name": "coca",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 39.0,
+            "paid": false
+          },
+          {
+            "time": "18:56",
+            "customer": "Marino Anna",
+            "phone": "3983751822",
+            "items": [
+              {
+                "name": "birra",
+                "quantity": 1
+              },
+              {
+                "name": "quattro formaggi",
+                "quantity": 1
+              },
+              {
+                "name": "calzone",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 19.5,
+            "paid": false
+          },
+          {
+            "time": "19:11",
+            "customer": "Moretti Stefano",
+            "phone": "3136430917",
+            "items": [
+              {
+                "name": "acqua",
+                "quantity": 1
+              },
+              {
+                "name": "quattro formaggi",
+                "quantity": 1
+              },
+              {
+                "name": "birra",
+                "quantity": 3
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 20.0,
+            "paid": false
+          },
+          {
+            "time": "19:26",
+            "customer": "Rossi Federica",
+            "phone": "3628745623",
+            "items": [
+              {
+                "name": "calzone",
+                "quantity": 1
+              },
+              {
+                "name": "quattro formaggi",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 16.0,
+            "paid": true
+          },
+          {
+            "time": "19:56",
+            "customer": "Gallo Andrea",
+            "phone": null,
+            "items": [
+              {
+                "name": "capricciosa",
+                "quantity": 2
+              },
+              {
+                "name": "birra",
+                "quantity": 1
+              },
+              {
+                "name": "quattro formaggi",
+                "quantity": 1
+              },
+              {
+                "name": "patatine",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Trieste 58",
+            "total_eur": 34.0,
+            "paid": false
+          }
+        ],
+        "uncertain_fields": [
+          "entries[1].items[2]",
+          "entries[3].items[0]",
+          "entries[3].items[1]",
+          "entries[4].items[2]",
+          "entries[2].phone",
+          "entries[0].phone"
+        ]
+      }
+    },
+    {
+      "page": "page-018.jpg",
+      "fields": 25,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 1,
+      "cost_usd": 0.0008575,
+      "latency_ms": 4193,
+      "input_tokens": 4540,
+      "output_tokens": 807,
+      "item_errors": [],
+      "prediction": {
+        "date": "2026-10-19",
+        "entries": [
+          {
+            "time": "18:50",
+            "customer": "Ferrari Anna",
+            "phone": "3162845128",
+            "items": [
+              {
+                "name": "capricciosa",
+                "quantity": 2
+              },
+              {
+                "name": "calzone",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 25.0,
+            "paid": true
+          },
+          {
+            "time": "19:35",
+            "customer": "Giordano Simone",
+            "phone": null,
+            "items": [
+              {
+                "name": "marinara",
+                "quantity": 1
+              },
+              {
+                "name": "margherita",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 11.0,
+            "paid": true
+          },
+          {
+            "time": "20:20",
+            "customer": "Mancini Luca",
+            "phone": "3548318563",
+            "items": [
+              {
+                "name": "diavola",
+                "quantity": 1
+              },
+              {
+                "name": "birra",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Cavour 108",
+            "total_eur": 16.5,
+            "paid": true
+          }
+        ],
+        "uncertain_fields": [
+          "entries[2].items[0].name"
+        ]
+      }
+    },
+    {
+      "page": "page-019.jpg",
+      "fields": 41,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 4,
+      "cost_usd": 0.001297,
+      "latency_ms": 7330,
+      "input_tokens": 4540,
+      "output_tokens": 1686,
+      "item_errors": [],
+      "prediction": {
+        "date": "2026-10-20",
+        "entries": [
+          {
+            "time": "18:37",
+            "customer": "Bianchi Paolo",
+            "phone": "3616388586",
+            "items": [
+              {
+                "name": "tiramis\u00f9",
+                "quantity": 1
+              },
+              {
+                "name": "acqua",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Mazzini 55",
+            "total_eur": 8.0,
+            "paid": true
+          },
+          {
+            "time": "19:07",
+            "customer": "Colombo Francesca",
+            "phone": "3902047503",
+            "items": [
+              {
+                "name": "calzone",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 8.0,
+            "paid": false
+          },
+          {
+            "time": "19:22",
+            "customer": "Moretti Paolo",
+            "phone": null,
+            "items": [
+              {
+                "name": "quattro formaggi",
+                "quantity": 1
+              },
+              {
+                "name": "coca cola",
+                "quantity": 1
+              },
+              {
+                "name": "calzone",
+                "quantity": 2
+              },
+              {
+                "name": "birra",
+                "quantity": 3
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 37.0,
+            "paid": false
+          },
+          {
+            "time": "19:37",
+            "customer": "Ricci Sara",
+            "phone": "3066381937",
+            "items": [
+              {
+                "name": "coca cola",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 5.0,
+            "paid": true
+          },
+          {
+            "time": "20:07",
+            "customer": "Ferrari Matteo",
+            "phone": null,
+            "items": [
+              {
+                "name": "calzone",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 16.0,
+            "paid": true
+          }
+        ],
+        "uncertain_fields": [
+          "entries[1].items[0].name",
+          "entries[2].items[1].name",
+          "entries[2].items[0].name",
+          "entries[4].items[0].name"
+        ]
+      }
+    },
+    {
+      "page": "page-020.jpg",
+      "fields": 33,
+      "wrong": 3,
+      "wrong_fields": [
+        "entries[3].items",
+        "entries[2].items",
+        "entries[1].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 3,
+      "cost_usd": 0.001152,
+      "latency_ms": 7130,
+      "input_tokens": 4540,
+      "output_tokens": 1396,
+      "item_errors": [
+        {
+          "read": "1x patatine fritte",
+          "truth": "1x patatine"
+        },
+        {
+          "read": "4x capri, 1x coca, 3x lasagne, 1x napoli",
+          "truth": "4x capricciosa, 1x coca cola, 3x lasagne, 1x napoli"
+        },
+        {
+          "read": "1x capri, 2x quattro formaggi",
+          "truth": "1x capricciosa, 2x quattro formaggi"
+        }
+      ],
+      "prediction": {
+        "date": "2026-10-21",
+        "entries": [
+          {
+            "time": "18:25",
+            "customer": "Marino Federica",
+            "phone": "3460179528",
+            "items": [
+              {
+                "name": "margherita",
+                "quantity": 1
+              },
+              {
+                "name": "acqua",
+                "quantity": 3
+              },
+              {
+                "name": "lasagne",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Roma 110",
+            "total_eur": 30.5,
+            "paid": false
+          },
+          {
+            "time": "19:10",
+            "customer": "Giordano Stefano",
+            "phone": "3155542209",
+            "items": [
+              {
+                "name": "capri",
+                "quantity": 1
+              },
+              {
+                "name": "quattro formaggi",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 24.5,
+            "paid": false
+          },
+          {
+            "time": "19:25",
+            "customer": "Rossi Luca",
+            "phone": null,
+            "items": [
+              {
+                "name": "lasagne",
+                "quantity": 3
+              },
+              {
+                "name": "coca",
+                "quantity": 1
+              },
+              {
+                "name": "napoli",
+                "quantity": 1
+              },
+              {
+                "name": "capri",
+                "quantity": 4
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": null,
+            "paid": true
+          },
+          {
+            "time": "19:55",
+            "customer": "Rossi Francesca",
+            "phone": "3440509038",
+            "items": [
+              {
+                "name": "patatine fritte",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 3.5,
+            "paid": false
+          }
+        ],
+        "uncertain_fields": [
+          "entries[1].items",
+          "entries[2].items[1].name",
+          "entries[3].items[0].name"
+        ]
+      }
+    },
+    {
+      "page": "page-021.jpg",
+      "fields": 25,
+      "wrong": 2,
+      "wrong_fields": [
+        "entries[2].items",
+        "entries[1].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 5,
+      "cost_usd": 0.001043,
+      "latency_ms": 7567,
+      "input_tokens": 4540,
+      "output_tokens": 1178,
+      "item_errors": [
+        {
+          "read": "2x form",
+          "truth": "2x quattro formaggi"
+        },
+        {
+          "read": "1x capri",
+          "truth": "1x capricciosa"
+        }
+      ],
+      "prediction": {
+        "date": "2026-10-22",
+        "entries": [
+          {
+            "time": "18:26",
+            "customer": "Greco Federica",
+            "phone": "3233226175",
+            "items": [
+              {
+                "name": "birra",
+                "quantity": 1
+              },
+              {
+                "name": "lasagne",
+                "quantity": 1
+              },
+              {
+                "name": "diavola",
+                "quantity": 2
+              },
+              {
+                "name": "coca cola",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 32.5,
+            "paid": false
+          },
+          {
+            "time": "18:56",
+            "customer": "Ferrari Sara",
+            "phone": "3396855696",
+            "items": [
+              {
+                "name": "capri",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 8.5,
+            "paid": false
+          },
+          {
+            "time": "19:11",
+            "customer": "Bruno Laura",
+            "phone": "3317664464",
+            "items": [
+              {
+                "name": "form",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Piazza Loggia 90",
+            "total_eur": 18.0,
+            "paid": false
+          }
+        ],
+        "uncertain_fields": [
+          "entries[0].items[2].name",
+          "entries[1].items[0].name",
+          "entries[2].items[0].name",
+          "entries[2].items[0].quantity",
+          "entries[2].phone"
+        ]
+      }
+    },
+    {
+      "page": "page-022.jpg",
+      "fields": 33,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 3,
+      "cost_usd": 0.0011515,
+      "latency_ms": 6047,
+      "input_tokens": 4540,
+      "output_tokens": 1395,
+      "item_errors": [],
+      "prediction": {
+        "date": "2026-10-23",
+        "entries": [
+          {
+            "time": "18:28",
+            "customer": "Bianchi Chiara",
+            "phone": "3977867085",
+            "items": [
+              {
+                "name": "diavola",
+                "quantity": 1
+              },
+              {
+                "name": "prosciutto e funghi",
+                "quantity": 1
+              },
+              {
+                "name": "napoli",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 22.5,
+            "paid": true
+          },
+          {
+            "time": "19:13",
+            "customer": "Rossi Federica",
+            "phone": "3321605691",
+            "items": [
+              {
+                "name": "calzone",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Cavour 65",
+            "total_eur": null,
+            "paid": true
+          },
+          {
+            "time": "19:58",
+            "customer": "Ferrari Andrea",
+            "phone": "3652295011",
+            "items": [
+              {
+                "name": "lasagne",
+                "quantity": 1
+              },
+              {
+                "name": "margherita",
+                "quantity": 1
+              },
+              {
+                "name": "patatine",
+                "quantity": 3
+              },
+              {
+                "name": "diavola",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Trieste 109",
+            "total_eur": 35.0,
+            "paid": false
+          },
+          {
+            "time": "20:43",
+            "customer": "Moretti Giulia",
+            "phone": null,
+            "items": [
+              {
+                "name": "patatine",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Corso Zanardelli 116",
+            "total_eur": 9.0,
+            "paid": true
+          }
+        ],
+        "uncertain_fields": [
+          "entries[0].items",
+          "entries[2].items",
+          "entries[2].paid"
+        ]
+      }
+    },
+    {
+      "page": "page-023.jpg",
+      "fields": 25,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 1,
+      "cost_usd": 0.0009365,
+      "latency_ms": 4862,
+      "input_tokens": 4540,
+      "output_tokens": 965,
+      "item_errors": [],
+      "prediction": {
+        "date": "2026-10-24",
+        "entries": [
+          {
+            "time": "18:11",
+            "customer": "Moretti Anna",
+            "phone": "3791694706",
+            "items": [
+              {
+                "name": "birra",
+                "quantity": 2
+              },
+              {
+                "name": "calzone",
+                "quantity": 1
+              },
+              {
+                "name": "margherita",
+                "quantity": 1
+              },
+              {
+                "name": "capricciosa",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Viale Venezia 115",
+            "total_eur": 31.5,
+            "paid": false
+          },
+          {
+            "time": "18:26",
+            "customer": "Moretti Stefano",
+            "phone": "3689300379",
+            "items": [
+              {
+                "name": "calzone",
+                "quantity": 3
+              },
+              {
+                "name": "margherita",
+                "quantity": 1
+              },
+              {
+                "name": "marinara",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 40.0,
+            "paid": true
+          },
+          {
+            "time": "18:41",
+            "customer": "Lombardi Marco",
+            "phone": "3818672621",
+            "items": [
+              {
+                "name": "margherita",
+                "quantity": 3
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Piazza Loggia 119",
+            "total_eur": 20.0,
+            "paid": false
+          }
+        ],
+        "uncertain_fields": [
+          "entries[1].items[2].name"
+        ]
+      }
+    },
+    {
+      "page": "page-024.jpg",
+      "fields": 41,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 6,
+      "cost_usd": 0.001347,
+      "latency_ms": 7567,
+      "input_tokens": 4540,
+      "output_tokens": 1786,
+      "item_errors": [],
+      "prediction": {
+        "date": "2026-10-25",
+        "entries": [
+          {
+            "time": "18:23",
+            "customer": "Moretti Chiara",
+            "phone": "3218032508",
+            "items": [
+              {
+                "name": "tiramis\u00f9",
+                "quantity": 1
+              },
+              {
+                "name": "birra",
+                "quantity": 3
+              },
+              {
+                "name": "marinara",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 25.0,
+            "paid": false
+          },
+          {
+            "time": "18:53",
+            "customer": "Colombo Matteo",
+            "phone": null,
+            "items": [
+              {
+                "name": "calzone",
+                "quantity": 1
+              },
+              {
+                "name": "marinara",
+                "quantity": 4
+              },
+              {
+                "name": "capricciosa",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 45.0,
+            "paid": true
+          },
+          {
+            "time": "19:08",
+            "customer": "Mancini Luca",
+            "phone": "3153209162",
+            "items": [
+              {
+                "name": "patatine",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 7.0,
+            "paid": false
+          },
+          {
+            "time": "19:38",
+            "customer": "Fontana Davide",
+            "phone": "3788443837",
+            "items": [
+              {
+                "name": "capricciosa",
+                "quantity": 1
+              },
+              {
+                "name": "prosciutto e funghi",
+                "quantity": 4
+              },
+              {
+                "name": "calzone",
+                "quantity": 2
+              },
+              {
+                "name": "acqua",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Roma 51",
+            "total_eur": 61.5,
+            "paid": false
+          },
+          {
+            "time": null,
+            "customer": "Moretti Marco",
+            "phone": "3061465453",
+            "items": [
+              {
+                "name": "lasagne",
+                "quantity": 2
+              },
+              {
+                "name": "acqua",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Piazza Loggia 38",
+            "total_eur": null,
+            "paid": false
+          }
+        ],
+        "uncertain_fields": [
+          "entries[0].items[2].name",
+          "entries[1].items[1].name",
+          "entries[3].items[0].quantity",
+          "entries[3].items[1].quantity",
+          "entries[0].paid",
+          "entries[2].phone"
+        ]
+      }
+    },
+    {
+      "page": "page-025.jpg",
+      "fields": 41,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 1,
+      "cost_usd": 0.001146,
+      "latency_ms": 5810,
+      "input_tokens": 4540,
+      "output_tokens": 1384,
+      "item_errors": [],
+      "prediction": {
+        "date": "2026-10-26",
+        "entries": [
+          {
+            "time": "18:53",
+            "customer": "Moretti Giulia",
+            "phone": "3626509439",
+            "items": [
+              {
+                "name": "capricciosa",
+                "quantity": 1
+              },
+              {
+                "name": "birra",
+                "quantity": 2
+              },
+              {
+                "name": "calzone",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Corso Zanardelli 31",
+            "total_eur": 25.5,
+            "paid": false
+          },
+          {
+            "time": "19:08",
+            "customer": "Barbieri Matteo",
+            "phone": "3523575716",
+            "items": [
+              {
+                "name": "calzone",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Corso Zanardelli 106",
+            "total_eur": 18.0,
+            "paid": true
+          },
+          {
+            "time": "19:53",
+            "customer": "Ferrari Sara",
+            "phone": "3589290634",
+            "items": [
+              {
+                "name": "calzone",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 16.0,
+            "paid": false
+          },
+          {
+            "time": null,
+            "customer": "Ferrari Chiara",
+            "phone": "3513930763",
+            "items": [
+              {
+                "name": "birra",
+                "quantity": 2
+              },
+              {
+                "name": "quattro formaggi",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 15.0,
+            "paid": true
+          },
+          {
+            "time": "20:53",
+            "customer": "Barbieri Marco",
+            "phone": null,
+            "items": [
+              {
+                "name": "prosciutto e funghi",
+                "quantity": 2
+              },
+              {
+                "name": "coca cola",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Piazza Loggia 27",
+            "total_eur": 23.0,
+            "paid": false
+          }
+        ],
+        "uncertain_fields": [
+          "entries[4].items[0].name"
+        ]
+      }
+    },
+    {
+      "page": "page-026.jpg",
+      "fields": 33,
+      "wrong": 1,
+      "wrong_fields": [
+        "entries[1].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 4,
+      "cost_usd": 0.0012215,
+      "latency_ms": 6376,
+      "input_tokens": 4540,
+      "output_tokens": 1535,
+      "item_errors": [
+        {
+          "read": "1x acqua, 2x birra, 2x patatine fritte, 1x tiramis\u00f9",
+          "truth": "1x acqua, 2x birra, 2x patatine, 1x tiramis\u00f9"
+        }
+      ],
+      "prediction": {
+        "date": "2026-10-27",
+        "entries": [
+          {
+            "time": "18:46",
+            "customer": "Ricci Davide",
+            "phone": "3785776732",
+            "items": [
+              {
+                "name": "birra",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 3.5,
+            "paid": true
+          },
+          {
+            "time": "19:01",
+            "customer": "Colombo Andrea",
+            "phone": "3408136766",
+            "items": [
+              {
+                "name": "patatine fritte",
+                "quantity": 2
+              },
+              {
+                "name": "acqua",
+                "quantity": 1
+              },
+              {
+                "name": "birra",
+                "quantity": 2
+              },
+              {
+                "name": "tiramis\u00f9",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 20.0,
+            "paid": false
+          },
+          {
+            "time": null,
+            "customer": "Zanetti Chiara",
+            "phone": null,
+            "items": [
+              {
+                "name": "birra",
+                "quantity": 1
+              },
+              {
+                "name": "prosciutto e funghi",
+                "quantity": 1
+              },
+              {
+                "name": "quattro formaggi",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 19.5,
+            "paid": true
+          },
+          {
+            "time": "20:01",
+            "customer": "Gallo Anna",
+            "phone": "3054953630",
+            "items": [
+              {
+                "name": "birra",
+                "quantity": 2
+              },
+              {
+                "name": "capricciosa",
+                "quantity": 2
+              },
+              {
+                "name": "quattro formaggi",
+                "quantity": 1
+              },
+              {
+                "name": "marinara",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Cavour 108",
+            "total_eur": 44.0,
+            "paid": true
+          }
+        ],
+        "uncertain_fields": [
+          "entries[1].items[0].name",
+          "entries[2].items[1].name",
+          "entries[3].items[2].name",
+          "entries[2].time"
+        ]
+      }
+    },
+    {
+      "page": "page-027.jpg",
+      "fields": 25,
+      "wrong": 1,
+      "wrong_fields": [
+        "entries[0].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 3,
+      "cost_usd": 0.0011595,
+      "latency_ms": 6338,
+      "input_tokens": 4540,
+      "output_tokens": 1411,
+      "item_errors": [
+        {
+          "read": "2x coca cola, 1x prosciutto funghi",
+          "truth": "2x coca cola, 1x prosciutto e funghi"
+        }
+      ],
+      "prediction": {
+        "date": "2026-10-28",
+        "entries": [
+          {
+            "time": "18:46",
+            "customer": "Zanetti Stefano",
+            "phone": "3297693560",
+            "items": [
+              {
+                "name": "prosciutto funghi",
+                "quantity": 1
+              },
+              {
+                "name": "coca cola",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 13.0,
+            "paid": false
+          },
+          {
+            "time": "19:31",
+            "customer": "Barbieri Giulia",
+            "phone": "3653521455",
+            "items": [
+              {
+                "name": "marinara",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 10.0,
+            "paid": false
+          },
+          {
+            "time": "19:46",
+            "customer": "Gallo Laura",
+            "phone": "3894105156",
+            "items": [
+              {
+                "name": "coca cola",
+                "quantity": 2
+              },
+              {
+                "name": "patatine",
+                "quantity": 2
+              },
+              {
+                "name": "margherita",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Viale Venezia 101",
+            "total_eur": 20.0,
+            "paid": true
+          }
+        ],
+        "uncertain_fields": [
+          "entries[0].items[0].name",
+          "entries[1].items[0].name",
+          "entries[2].items[1].name"
+        ]
+      }
+    },
+    {
+      "page": "page-028.jpg",
+      "fields": 25,
+      "wrong": 1,
+      "wrong_fields": [
+        "entries[1].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 1,
+      "cost_usd": 0.0008425,
+      "latency_ms": 3925,
+      "input_tokens": 4540,
+      "output_tokens": 777,
+      "item_errors": [
+        {
+          "read": "1x nap",
+          "truth": "1x napoli"
+        }
+      ],
+      "prediction": {
+        "date": "2026-10-29",
+        "entries": [
+          {
+            "time": "18:14",
+            "customer": "Rossi Giulia",
+            "phone": null,
+            "items": [
+              {
+                "name": "tiramis\u00f9",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Cavour 67",
+            "total_eur": 11.0,
+            "paid": false
+          },
+          {
+            "time": "18:29",
+            "customer": "Ferrari Simone",
+            "phone": "3026672878",
+            "items": [
+              {
+                "name": "nap",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 7.0,
+            "paid": false
+          },
+          {
+            "time": "18:44",
+            "customer": "Colombo Giulia",
+            "phone": "3286213671",
+            "items": [
+              {
+                "name": "acqua",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Piazza Loggia 14",
+            "total_eur": 5.0,
+            "paid": false
+          }
+        ],
+        "uncertain_fields": [
+          "entries[1].items[0].name"
+        ]
+      }
+    },
+    {
+      "page": "page-029.jpg",
+      "fields": 25,
+      "wrong": 0,
+      "wrong_fields": [],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 2,
+      "cost_usd": 0.0011685,
+      "latency_ms": 6440,
+      "input_tokens": 4540,
+      "output_tokens": 1429,
+      "item_errors": [],
+      "prediction": {
+        "date": "2026-10-30",
+        "entries": [
+          {
+            "time": "18:15",
+            "customer": "Greco Chiara",
+            "phone": "3026244380",
+            "items": [
+              {
+                "name": "birra",
+                "quantity": 3
+              },
+              {
+                "name": "diavola",
+                "quantity": 2
+              },
+              {
+                "name": "margherita",
+                "quantity": 2
+              },
+              {
+                "name": "acqua",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Trieste 69",
+            "total_eur": 41.0,
+            "paid": false
+          },
+          {
+            "time": "18:30",
+            "customer": "Ricci Federica",
+            "phone": "3411864736",
+            "items": [
+              {
+                "name": "prosciutto e funghi",
+                "quantity": 2
+              },
+              {
+                "name": "quattro formaggi",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Garibaldi 46",
+            "total_eur": 26.0,
+            "paid": false
+          },
+          {
+            "time": "18:45",
+            "customer": "Conti Matteo",
+            "phone": "3611999648",
+            "items": [
+              {
+                "name": "patatine",
+                "quantity": 2
+              },
+              {
+                "name": "margherita",
+                "quantity": 1
+              },
+              {
+                "name": "quattro formaggi",
+                "quantity": 1
+              },
+              {
+                "name": "tiramis\u00f9",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Milano 56",
+            "total_eur": 27.5,
+            "paid": false
+          }
+        ],
+        "uncertain_fields": [
+          "entries[1].items[1]",
+          "entries[2].items[2]"
+        ]
+      }
+    },
+    {
+      "page": "page-030.jpg",
+      "fields": 33,
+      "wrong": 3,
+      "wrong_fields": [
+        "entries[3].items",
+        "entries[2].items",
+        "entries[1].items"
+      ],
+      "missed_entries": 0,
+      "spurious_entries": 0,
+      "flagged": 4,
+      "cost_usd": 0.001102,
+      "latency_ms": 5498,
+      "input_tokens": 4540,
+      "output_tokens": 1296,
+      "item_errors": [
+        {
+          "read": "2x capri, 1x diavola",
+          "truth": "2x capricciosa, 1x diavola"
+        },
+        {
+          "read": "1x capricciosa, 1x coca, 1x diavola",
+          "truth": "1x capricciosa, 1x coca cola, 1x diavola"
+        },
+        {
+          "read": "1x calzone, 1x coca, 2x diavola",
+          "truth": "1x calzone, 1x coca cola, 2x diavola"
+        }
+      ],
+      "prediction": {
+        "date": "2026-10-31",
+        "entries": [
+          {
+            "time": "18:18",
+            "customer": "Fontana Giulia",
+            "phone": "3396935125",
+            "items": [
+              {
+                "name": "napoli",
+                "quantity": 1
+              },
+              {
+                "name": "margherita",
+                "quantity": 1
+              },
+              {
+                "name": "birra",
+                "quantity": 1
+              },
+              {
+                "name": "diavola",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 24.0,
+            "paid": false
+          },
+          {
+            "time": "18:48",
+            "customer": "Fontana Davide",
+            "phone": "3568878861",
+            "items": [
+              {
+                "name": "calzone",
+                "quantity": 1
+              },
+              {
+                "name": "coca",
+                "quantity": 1
+              },
+              {
+                "name": "diavola",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": 25.5,
+            "paid": false
+          },
+          {
+            "time": "19:18",
+            "customer": "Fontana Anna",
+            "phone": "3778825352",
+            "items": [
+              {
+                "name": "coca",
+                "quantity": 1
+              },
+              {
+                "name": "diavola",
+                "quantity": 1
+              },
+              {
+                "name": "capricciosa",
+                "quantity": 1
+              }
+            ],
+            "fulfilment": "pickup",
+            "address": null,
+            "total_eur": null,
+            "paid": true
+          },
+          {
+            "time": "19:48",
+            "customer": "Greco Federica",
+            "phone": null,
+            "items": [
+              {
+                "name": "diavola",
+                "quantity": 1
+              },
+              {
+                "name": "capri",
+                "quantity": 2
+              }
+            ],
+            "fulfilment": "delivery",
+            "address": "Via Garibaldi 104",
+            "total_eur": 26.5,
+            "paid": true
+          }
+        ],
+        "uncertain_fields": [
+          "entries[0].items[0].name",
+          "entries[2].items[2].name",
+          "entries[3].items[1].name",
+          "entries[2].total_eur"
+        ]
+      }
+    }
+  ]
+}

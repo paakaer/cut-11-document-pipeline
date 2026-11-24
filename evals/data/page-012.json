@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-13",
+  "entries": [
+    {
+      "time": "18:03",
+      "customer": "Ricci Luca",
+      "phone": "3513451177",
+      "items": [
+        {
+          "name": "lasagne",
+          "quantity": 1
+        },
+        {
+          "name": "napoli",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Milano 24",
+      "total_eur": null,
+      "paid": false
+    },
+    {
+      "time": "18:18",
+      "customer": "Costa Giulia",
+      "phone": null,
+      "items": [
+        {
+          "name": "tiramisù",
+          "quantity": 2
+        },
+        {
+          "name": "coca cola",
+          "quantity": 2
+        },
+        {
+          "name": "margherita",
+          "quantity": 2
+        },
+        {
+          "name": "lasagne",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Viale Venezia 85",
+      "total_eur": 37.0,
+      "paid": false
+    },
+    {
+      "time": "18:33",
+      "customer": "Ricci Davide",
+      "phone": "3593160205",
+      "items": [
+        {
+          "name": "margherita",
+          "quantity": 1
+        },
+        {
+          "name": "patatine",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Piazza Loggia 30",
+      "total_eur": 15.0,
+      "paid": true
+    }
+  ],
+  "uncertain_fields": []
+}

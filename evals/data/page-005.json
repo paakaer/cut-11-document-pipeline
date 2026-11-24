@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-06",
+  "entries": [
+    {
+      "time": "18:19",
+      "customer": "Bruno Paolo",
+      "phone": "3674827534",
+      "items": [
+        {
+          "name": "lasagne",
+          "quantity": 1
+        },
+        {
+          "name": "capricciosa",
+          "quantity": 1
+        },
+        {
+          "name": "prosciutto e funghi",
+          "quantity": 2
+        },
+        {
+          "name": "calzone",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 49.5,
+      "paid": false
+    },
+    {
+      "time": "18:49",
+      "customer": "Ferrari Francesca",
+      "phone": "3460195285",
+      "items": [
+        {
+          "name": "tiramisù",
+          "quantity": 2
+        },
+        {
+          "name": "diavola",
+          "quantity": 2
+        },
+        {
+          "name": "calzone",
+          "quantity": 1
+        },
+        {
+          "name": "margherita",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Via Cavour 2",
+      "total_eur": 46.0,
+      "paid": false
+    },
+    {
+      "time": "19:04",
+      "customer": "Marino Simone",
+      "phone": "3236829918",
+      "items": [
+        {
+          "name": "tiramisù",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 4.5,
+      "paid": false
+    },
+    {
+      "time": "19:34",
+      "customer": "Colombo Andrea",
+      "phone": "3277807727",
+      "items": [
+        {
+          "name": "calzone",
+          "quantity": 1
+        },
+        {
+          "name": "coca cola",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 10.5,
+      "paid": true
+    },
+    {
+      "time": "19:49",
+      "customer": "Moretti Francesca",
+      "phone": "3125009051",
+      "items": [
+        {
+          "name": "diavola",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 15.0,
+      "paid": false
+    }
+  ],
+  "uncertain_fields": []
+}

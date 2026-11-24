@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-28",
+  "entries": [
+    {
+      "time": "18:46",
+      "customer": "Zanetti Stefano",
+      "phone": "3297693560",
+      "items": [
+        {
+          "name": "prosciutto e funghi",
+          "quantity": 1
+        },
+        {
+          "name": "coca cola",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 13.0,
+      "paid": false
+    },
+    {
+      "time": "19:31",
+      "customer": "Barbieri Giulia",
+      "phone": "3653521455",
+      "items": [
+        {
+          "name": "marinara",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 10.0,
+      "paid": false
+    },
+    {
+      "time": "19:46",
+      "customer": "Gallo Laura",
+      "phone": "3894105156",
+      "items": [
+        {
+          "name": "coca cola",
+          "quantity": 2
+        },
+        {
+          "name": "patatine",
+          "quantity": 2
+        },
+        {
+          "name": "margherita",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Viale Venezia 101",
+      "total_eur": 20.0,
+      "paid": true
+    }
+  ],
+  "uncertain_fields": []
+}

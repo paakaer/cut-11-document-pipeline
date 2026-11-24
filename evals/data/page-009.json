@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-10",
+  "entries": [
+    {
+      "time": "18:47",
+      "customer": "Mancini Matteo",
+      "phone": null,
+      "items": [
+        {
+          "name": "birra",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 3.5,
+      "paid": true
+    },
+    {
+      "time": "19:02",
+      "customer": "Colombo Marco",
+      "phone": "3511172860",
+      "items": [
+        {
+          "name": "birra",
+          "quantity": 2
+        },
+        {
+          "name": "tiramisù",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 11.5,
+      "paid": true
+    },
+    {
+      "time": "19:17",
+      "customer": "Greco Elena",
+      "phone": "3420441038",
+      "items": [
+        {
+          "name": "lasagne",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": null,
+      "paid": true
+    },
+    {
+      "time": null,
+      "customer": "Gallo Stefano",
+      "phone": "3866266620",
+      "items": [
+        {
+          "name": "margherita",
+          "quantity": 1
+        },
+        {
+          "name": "napoli",
+          "quantity": 1
+        },
+        {
+          "name": "coca cola",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Corso Zanardelli 78",
+      "total_eur": 17.5,
+      "paid": false
+    }
+  ],
+  "uncertain_fields": []
+}

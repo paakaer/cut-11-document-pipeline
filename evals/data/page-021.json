@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-22",
+  "entries": [
+    {
+      "time": "18:26",
+      "customer": "Greco Federica",
+      "phone": "3233226175",
+      "items": [
+        {
+          "name": "birra",
+          "quantity": 1
+        },
+        {
+          "name": "lasagne",
+          "quantity": 1
+        },
+        {
+          "name": "diavola",
+          "quantity": 2
+        },
+        {
+          "name": "coca cola",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 32.5,
+      "paid": false
+    },
+    {
+      "time": "18:56",
+      "customer": "Ferrari Sara",
+      "phone": "3396855696",
+      "items": [
+        {
+          "name": "capricciosa",
+          "quantity": 1
+        }
+      ],
+      "fulfilment": "pickup",
+      "address": null,
+      "total_eur": 8.5,
+      "paid": false
+    },
+    {
+      "time": "19:11",
+      "customer": "Bruno Laura",
+      "phone": "3317664464",
+      "items": [
+        {
+          "name": "quattro formaggi",
+          "quantity": 2
+        }
+      ],
+      "fulfilment": "delivery",
+      "address": "Piazza Loggia 90",
+      "total_eur": 18.0,
+      "paid": false
+    }
+  ],
+  "uncertain_fields": []
+}
